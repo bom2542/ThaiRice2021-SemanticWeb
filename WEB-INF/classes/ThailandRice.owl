@@ -157,6 +157,9 @@
         <NamedIndividual IRI="#RD6"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RD8"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#RedJasmineNotRespond"/>
     </Declaration>
     <Declaration>
@@ -316,6 +319,10 @@
     <ClassAssertion>
         <Class IRI="#ThaiRice"/>
         <NamedIndividual IRI="#RD6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD8"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Attributes"/>

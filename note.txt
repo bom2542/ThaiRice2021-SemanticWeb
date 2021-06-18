@@ -1,0 +1,5 @@
+cd WEB-INF/classes/com/example
+javac -cp "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\jsp-api.jar" mySparql.java
+
+javac -cp "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib"\*;
+"C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\lab10-02\WEB-INF\lib"\* mySparql.java

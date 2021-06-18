@@ -1,0 +1,2560 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.ThaiRice.com/thairice"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.ThaiRice.com/thairice">
+    <Prefix name="" IRI="http://www.ThaiRice.com/thairice"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ThaiRice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeRice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEnglishName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasThaiName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ayutthaya_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bang_Taen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CP_304"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chai_Nat_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chai_Nat_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiang_Phatthalung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cho_Lung_97"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chum_Phae_60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dawk_Pa-yawm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Farm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Floating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gaen_Jan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gam_Pai_15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Goo_Meuang_Luang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gow_Ruang_88"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hahng_Yi_71"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hantra_60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Irrigation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jek_Chuey_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jhao_Khao_Chiangmai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jow_Haw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jow_Lisaw_San-pah-tawng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khai_Mod_Rin_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao_Dawk_Mali_105"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao_Gaw_Diaw_35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao_Pahk_Maw_148"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao_Pong_Krai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao_Tah_Haeng_17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khem_Tawng_Phatthalung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leb_Meu_Nahng_111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leb_Nok_Pattani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leuang_Pratew_123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leuang_Yai_148"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Look_Daeng_Pattani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muey_Nawng_62_M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nahng_Mon_S-4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nahng_Pa-yah_132"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nam_Roo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nam_Sa-gui_19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niaw_San-pah-tawng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niaw_Ubon_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niaw_Ubon_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NotSensitive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PTNC96004-49"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pathum_Thani_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pathum_Thani_60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patthalung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peuak_Nam_43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phatthalung_60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phitsanulok_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phitsanulok_60-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phitsanulok_60-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phitsanulok_80"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phrae_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pin_Gaew_56"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plai_Ngahm_Prachin_Buri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prachin_Buri_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prachin_Buri_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Puang_Rai_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R258"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD39"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDH1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Hawn_Rice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Rose_Rice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sakon_Nakhon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samerng_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samerng_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#San-pah-tawng_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sang_Yod_Phattalung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sensitive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sew_Mae_Jan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suphan_Buri_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suphan_Buri_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suphan_Buri_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suphan_Buri_60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suphan_Buri_90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surin_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Upland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glutinous_rice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paddy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Phitsanulok_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Suphan_Buri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao´_Luang_San-pah-tawng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao’_Jow_Hawm_Khlong_Luang_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nahng_Cha_–_lawng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ta_–_pow_Gaew_161"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Ayutthaya_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Bang_Taen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#CP_304"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Chai_Nat_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Chai_Nat_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Chiang_Phatthalung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Cho_Lung_97"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Chum_Phae_60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Dawk_Pa-yawm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Gaen_Jan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Gam_Pai_15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Goo_Meuang_Luang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Gow_Ruang_88"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Hahng_Yi_71"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Hantra_60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Jek_Chuey_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Jhao_Khao_Chiangmai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Jow_Haw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Jow_Lisaw_San-pah-tawng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khai_Mod_Rin_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao_Dawk_Mali_105"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao_Gaw_Diaw_35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao_Pahk_Maw_148"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao_Pong_Krai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao_Tah_Haeng_17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khem_Tawng_Phatthalung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Leb_Meu_Nahng_111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Leb_Nok_Pattani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Leuang_Pratew_123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Leuang_Yai_148"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Look_Daeng_Pattani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Muey_Nawng_62_M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Nahng_Mon_S-4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Nahng_Pa-yah_132"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Nam_Roo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Nam_Sa-gui_19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Niaw_San-pah-tawng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Niaw_Ubon_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Niaw_Ubon_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#PTNC96004-49"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Pathum_Thani_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Pathum_Thani_60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Patthalung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Peuak_Nam_43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Phatthalung_60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Phitsanulok_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Phitsanulok_60-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Phitsanulok_60-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Phitsanulok_80"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Phrae_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Pin_Gaew_56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Plai_Ngahm_Prachin_Buri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Prachin_Buri_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Prachin_Buri_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Puang_Rai_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#R258"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD39"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RDH1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Red_Hawn_Rice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Red_Rose_Rice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Sakon_Nakhon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Samerng_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#San-pah-tawng_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Sang_Yod_Phattalung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Sew_Mae_Jan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Suphan_Buri_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Suphan_Buri_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Suphan_Buri_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Suphan_Buri_60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Suphan_Buri_90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Surin_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#rd9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Phitsanulok_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Suphan_Buri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao´_Luang_San-pah-tawng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao’_Jow_Hawm_Khlong_Luang_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Nahng_Cha_–_lawng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#Ta_–_pow_Gaew_161"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Ayutthaya_1"/>
+        <Literal>Ayutthaya 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Ayutthaya_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Ayutthaya_1/Ayutthaya_1_01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Ayutthaya_1"/>
+        <Literal>อยุธยา 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Bang_Taen"/>
+        <Literal>Bang Taen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Bang_Taen"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Bang_Taen/Bang_Taen_01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Bang_Taen"/>
+        <Literal>บางแตน</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#CP_304"/>
+        <Literal>CP 304</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#CP_304"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/CP304/CP304_1.JPG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#CP_304"/>
+        <Literal>ซีพี 304</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Chai_Nat_1"/>
+        <Literal>Chai Nat 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Chai_Nat_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Chai_Nat_1/113-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Chai_Nat_1"/>
+        <Literal>ชัยนาท 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Chai_Nat_2"/>
+        <Literal>Chai Nat 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Chai_Nat_2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Chai_Nat_2/2_03.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Chai_Nat_2"/>
+        <Literal>ชัยนาท 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Chiang_Phatthalung"/>
+        <Literal>Chiang Phatthalung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Chiang_Phatthalung"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s114/Chiang%20Phatthalung_02.JPG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Chiang_Phatthalung"/>
+        <Literal>เฉี้ยงพัทลุง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Cho_Lung_97"/>
+        <Literal>Cho Lung 97</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Cho_Lung_97"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Cho%20Lung97/1.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Cho_Lung_97"/>
+        <Literal>ช่อลุง 97</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Chum_Phae_60"/>
+        <Literal>Chum Phae 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Chum_Phae_60"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s115/rice_44.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Chum_Phae_60"/>
+        <Literal>ชุมแพ 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Dawk_Pa-yawm"/>
+        <Literal>Dawk Pa-yawm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Dawk_Pa-yawm"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/173_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Dawk_Pa-yawm"/>
+        <Literal>ดอกพะยอม</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Gaen_Jan"/>
+        <Literal>Gaen Jan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Gaen_Jan"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Gaen_Jan"/>
+        <Literal>แก่นจันทร์</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Gam_Pai_15"/>
+        <Literal>Gam Pai 15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Gam_Pai_15"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s18/rice_23.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Gam_Pai_15"/>
+        <Literal>กำผาย 15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Goo_Meuang_Luang"/>
+        <Literal>Goo Meuang Luang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Goo_Meuang_Luang"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Goo_Meuang_Luang/165_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Goo_Meuang_Luang"/>
+        <Literal>กู้เมืองหลวง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Gow_Ruang_88"/>
+        <Literal>Gow Ruang 88</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Gow_Ruang_88"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s19/rice_25.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Gow_Ruang_88"/>
+        <Literal>เก้ารวง 88</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Hahng_Yi_71"/>
+        <Literal>Hahng Yi 71</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Hahng_Yi_71"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s128/02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Hahng_Yi_71"/>
+        <Literal>หางยี 71</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Hantra_60"/>
+        <Literal>Hantra 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Hantra_60"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Hantra_60/157_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Hantra_60"/>
+        <Literal>หันตรา 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Jek_Chuey_1"/>
+        <Literal>Jek Chuey 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Jek_Chuey_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/PTTC02019/01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Jek_Chuey_1"/>
+        <Literal>เจ๊กเชย 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Jhao_Khao_Chiangmai"/>
+        <Literal>Jhao Khao Chiangmai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Jhao_Khao_Chiangmai"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Jhao_Khao_Chiangmai/Jhao%20Khao%20Chiangmai2.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Jhao_Khao_Chiangmai"/>
+        <Literal>เจ้าขาวเชียงใหม่</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Jow_Haw"/>
+        <Literal>Jow Haw</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Jow_Haw"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Jow_Haw/169_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Jow_Haw"/>
+        <Literal>เจ้าฮ่อ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Jow_Lisaw_San-pah-tawng"/>
+        <Literal>Jow Lisaw San-pah-tawng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Jow_Lisaw_San-pah-tawng"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Jow_Lisaw_San-pah-tawng/Jow_Lisaw_San_pah_tawng_01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Jow_Lisaw_San-pah-tawng"/>
+        <Literal>เจ้าลีซอสันป่าตอง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khai_Mod_Rin_3"/>
+        <Literal>Khai Mod Rin 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khai_Mod_Rin_3"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khai%20Mod%20Rin3/1.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khai_Mod_Rin_3"/>
+        <Literal>ไข่มดริ้น 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao_Dawk_Mali_105"/>
+        <Literal>Khao Dawk Mali 105</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao_Dawk_Mali_105"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s110/rice_29.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao_Dawk_Mali_105"/>
+        <Literal>ขาวดอกมะลิ 105</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao_Gaw_Diaw_35"/>
+        <Literal>Khao Gaw Diaw 35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao_Gaw_Diaw_35"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/PSLC84035/1.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao_Gaw_Diaw_35"/>
+        <Literal>ขาวกอเดียว 35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao_Pahk_Maw_148"/>
+        <Literal>Khao Pahk Maw 148</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao_Pahk_Maw_148"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s112/rice_35.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao_Pahk_Maw_148"/>
+        <Literal>ขาวปากหม้อ 148</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao_Pong_Krai"/>
+        <Literal>Khao Pong Krai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao_Pong_Krai"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Pong_Krai/167_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao_Pong_Krai"/>
+        <Literal>ขาวโป่งไคร้</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao_Tah_Haeng_17"/>
+        <Literal>Khao Tah Haeng 17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao_Tah_Haeng_17"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s111/rice_32.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao_Tah_Haeng_17"/>
+        <Literal>ขาวตาแห้ง 17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khem_Tawng_Phatthalung"/>
+        <Literal>Khem Tawng Phatthalung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khem_Tawng_Phatthalung"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s135/02.JPG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khem_Tawng_Phatthalung"/>
+        <Literal>เข็มทองพัทลุง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Leb_Meu_Nahng_111"/>
+        <Literal>Leb Meu Nahng 111</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Leb_Meu_Nahng_111"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Leb_Meu_Nahng_111/155_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Leb_Meu_Nahng_111"/>
+        <Literal>เล็บมือนาง 111</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Leb_Nok_Pattani"/>
+        <Literal>Leb Nok Pattani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Leb_Nok_Pattani"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s127/03.JPG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Leb_Nok_Pattani"/>
+        <Literal>เล็บนกปัตตานี</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Leuang_Pratew_123"/>
+        <Literal>Leuang Pratew 123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Leuang_Pratew_123"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s133/02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Leuang_Pratew_123"/>
+        <Literal>เหลืองประทิว 123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Leuang_Yai_148"/>
+        <Literal>Leuang Yai 148</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Leuang_Yai_148"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s134/02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Leuang_Yai_148"/>
+        <Literal>เหลืองใหญ่ 148</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Look_Daeng_Pattani"/>
+        <Literal>Look Daeng Pattani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Look_Daeng_Pattani"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s126/002.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Look_Daeng_Pattani"/>
+        <Literal>ลูกแดงปัตตานี</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Muey_Nawng_62_M"/>
+        <Literal>Muey Nawng 62 M</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Muey_Nawng_62_M"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s129/02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Muey_Nawng_62_M"/>
+        <Literal>เหมยนอง 62 เอ็ม</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Nahng_Mon_S-4"/>
+        <Literal>Nahng Mon S-4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Nahng_Mon_S-4"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s117/rice_50.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Nahng_Mon_S-4"/>
+        <Literal>นางมล เอส-4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Nahng_Pa-yah_132"/>
+        <Literal>Nahng Pa-yah 132</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Nahng_Pa-yah_132"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s116/rice_47.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Nahng_Pa-yah_132"/>
+        <Literal>นางพญา 132</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Nam_Roo"/>
+        <Literal>Nam Roo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Nam_Roo"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Nam_Roo/175_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Nam_Roo"/>
+        <Literal>น้ำรู</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Nam_Sa-gui_19"/>
+        <Literal>Nam Sa-gui 19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Nam_Sa-gui_19"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s118/rice_53.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Nam_Sa-gui_19"/>
+        <Literal>น้ำสะกุย 19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Niaw_San-pah-tawng"/>
+        <Literal>Niaw San-pah-tawng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Niaw_San-pah-tawng"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s130/02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Niaw_San-pah-tawng"/>
+        <Literal>เหนียวสันป่าตอง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Niaw_Ubon_1"/>
+        <Literal>Niaw Ubon 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Niaw_Ubon_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s131/02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Niaw_Ubon_1"/>
+        <Literal>เหนียวอุบล 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Niaw_Ubon_2"/>
+        <Literal>Niaw Ubon 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Niaw_Ubon_2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s132/02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Niaw_Ubon_2"/>
+        <Literal>เหนียวอุบล 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#PTNC96004-49"/>
+        <Literal>PTNC96004-49</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#PTNC96004-49"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/PTNC96004-49/PTNC96004-49_1.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#PTNC96004-49"/>
+        <Literal>เหนียวดำช่อไม้ไผ่ 4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Pathum_Thani_1"/>
+        <Literal>Pathum Thani 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Pathum_Thani_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Pathum_Thani_1/115-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Pathum_Thani_1"/>
+        <Literal>ปทุมธานี 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Pathum_Thani_60"/>
+        <Literal>Pathum Thani 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Pathum_Thani_60"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s120/rice_59.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Pathum_Thani_60"/>
+        <Literal>ปทุมธานี 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Patthalung"/>
+        <Literal>Patthalung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Patthalung"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Patthalung/117-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Patthalung"/>
+        <Literal>พัทลุง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Peuak_Nam_43"/>
+        <Literal>Peuak Nam 43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Peuak_Nam_43"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s119/rice_56.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Peuak_Nam_43"/>
+        <Literal>เผือกน้ำ 43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Phatthalung_60"/>
+        <Literal>Phatthalung 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Phatthalung_60"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s122/rice_65.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Phatthalung_60"/>
+        <Literal>พัทลุง 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <Literal>Phitsanulok 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Phitsanulok2/119-1%20copy.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <Literal>พิษณุโลก 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Phitsanulok_3"/>
+        <Literal>Phitsanulok 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Phitsanulok_3"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s123/Phitsanulok_3_02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Phitsanulok_3"/>
+        <Literal>พิษณุโลก 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Phitsanulok_60-1"/>
+        <Literal>Phitsanulok 60-1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Phitsanulok_60-1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s124/Phitsanulok_60-1_02.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Phitsanulok_60-1"/>
+        <Literal>พิษณุโลก 60-1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Phitsanulok_60-2"/>
+        <Literal>Phitsanulok 60-2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Phitsanulok_60-2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Phitsanulok_60-2/121-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Phitsanulok_60-2"/>
+        <Literal>พิษณุโลก 60-2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Phitsanulok_80"/>
+        <Literal>Phitsanulok 80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Phitsanulok_80"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s125/002.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Phitsanulok_80"/>
+        <Literal>พิษณุโลก 80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Phrae_1"/>
+        <Literal>Phrae 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Phrae_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Phrae_1/123-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Phrae_1"/>
+        <Literal>แพร่ 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Pin_Gaew_56"/>
+        <Literal>Pin Gaew 56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Pin_Gaew_56"/>
+        <Literal>https://www.technologychaoban.com/wp-content/uploads/2016/12/%E0%B8%AB%E0%B8%A1%E0%B8%AD6-696x522.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Pin_Gaew_56"/>
+        <Literal>ปิ่นแก้ว 56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Plai_Ngahm_Prachin_Buri"/>
+        <Literal>Plai Ngahm Prachin Buri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Plai_Ngahm_Prachin_Buri"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Plai_Ngahm_Prachin_Buri/153_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Plai_Ngahm_Prachin_Buri"/>
+        <Literal>พลายงามปราจีนบุรี</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Prachin_Buri_1"/>
+        <Literal>Prachin Buri 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Prachin_Buri_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Prachin_Buri_1/147_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Prachin_Buri_1"/>
+        <Literal>ปราจีนบุรี 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Prachin_Buri_2"/>
+        <Literal>Prachin Buri 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Prachin_Buri_2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Prachin_Buri_2/149_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Prachin_Buri_2"/>
+        <Literal>ปราจีนบุรี 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Puang_Rai_2"/>
+        <Literal>Puang Rai 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Puang_Rai_2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s121/Puang_Rai_2.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Puang_Rai_2"/>
+        <Literal>พวงไร่ 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#R258"/>
+        <Literal>R258</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#R258"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/R258/179_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#R258"/>
+        <Literal>อาร์258</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD17"/>
+        <Literal>RD17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD17"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD17/161_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD17"/>
+        <Literal>กข17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD19"/>
+        <Literal>RD19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD19"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD19/141_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD19"/>
+        <Literal>กข19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD33"/>
+        <Literal>RD33 (Hawm Ubon 80)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD33"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD33/02.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD33"/>
+        <Literal>กข33 (หอมอุบล 80)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD37"/>
+        <Literal>RD37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD37"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD37/01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD37"/>
+        <Literal>กข37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD39"/>
+        <Literal>RD39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD39"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD39/01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD39"/>
+        <Literal>กข39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD41"/>
+        <Literal>RD41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD41"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD41/2.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD41"/>
+        <Literal>กข41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD43"/>
+        <Literal>RD43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD43"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD43/1.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD43"/>
+        <Literal>กข43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD45"/>
+        <Literal>RD45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD45"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD45/1.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD45"/>
+        <Literal>กข45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RD47"/>
+        <Literal>RD47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD47"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD47/1.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RD47"/>
+        <Literal>กข47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#RDH1"/>
+        <Literal>RDH1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RDH1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RDH1/RDH1_1.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#RDH1"/>
+        <Literal>กขผ1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Red_Hawn_Rice"/>
+        <Literal>Red Hawn Rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Red_Hawn_Rice"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Red_Hawn_Rice/206_1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Red_Hawn_Rice"/>
+        <Literal>ข้าวหอมแดง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Red_Rose_Rice"/>
+        <Literal>Red Rose Rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Red_Rose_Rice"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Red_Rose_Rice/207_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Red_Rose_Rice"/>
+        <Literal>ข้าวหอมกุหลาบแดง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Sakon_Nakhon"/>
+        <Literal>Sakon Nakhon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Sakon_Nakhon"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Sakon_Nakhon/125-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Sakon_Nakhon"/>
+        <Literal>สกลนคร</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Samerng_1"/>
+        <Literal>Samerng 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Samerng_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Bale_Samerng_1/193_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Samerng_1"/>
+        <Literal>สะเมิง 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <Literal>Samerng 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Bale_Samerng_2/195_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <Literal>สะเมิง 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#San-pah-tawng_1"/>
+        <Literal>San-pah-tawng 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#San-pah-tawng_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/San_pah_tawng_1/127-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#San-pah-tawng_1"/>
+        <Literal>สันป่าตอง 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Sang_Yod_Phattalung"/>
+        <Literal>Sang Yod Phattalung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Sang_Yod_Phattalung"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Sang_Yhod_Pattalung/Sang_Yhod%20Pattalung2.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Sang_Yod_Phattalung"/>
+        <Literal>สังข์หยดพัทลุง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Sew_Mae_Jan"/>
+        <Literal>Sew Mae Jan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Sew_Mae_Jan"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Sew_Mae_Jan/171_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Sew_Mae_Jan"/>
+        <Literal>ซิวแม่จัน</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Suphan_Buri_1"/>
+        <Literal>Suphan Buri 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Suphan_Buri_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_1/129-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Suphan_Buri_1"/>
+        <Literal>สุพรรณบุรี 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Suphan_Buri_2"/>
+        <Literal>Suphan Buri 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Suphan_Buri_2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_2/131-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Suphan_Buri_2"/>
+        <Literal>สุพรรณบุรี 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Suphan_Buri_3"/>
+        <Literal>Suphan Buri 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Suphan_Buri_3"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_3/Suphan_Buri_3_01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Suphan_Buri_3"/>
+        <Literal>สุพรรณบุรี 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Suphan_Buri_60"/>
+        <Literal>Suphan Buri 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Suphan_Buri_60"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_60/133-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Suphan_Buri_60"/>
+        <Literal>สุพรรณบุรี 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Suphan_Buri_90"/>
+        <Literal>Suphan Buri 90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Suphan_Buri_90"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_90/135-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Suphan_Buri_90"/>
+        <Literal>สุพรรณบุรี 90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Surin_1"/>
+        <Literal>Surin 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Surin_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Surin_1/137-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Surin_1"/>
+        <Literal>สุรินทร์ 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd1"/>
+        <Literal>RD1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD1/087-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd1"/>
+        <Literal>กข1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd10"/>
+        <Literal>RD10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd10"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD10/099-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd10"/>
+        <Literal>กข10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd11"/>
+        <Literal>RD11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd11"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD11/101-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd11"/>
+        <Literal>กข11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd12"/>
+        <Literal>RD12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd12"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s14/002.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd12"/>
+        <Literal>กข12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd13"/>
+        <Literal>RD13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd13"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s15/rice_14.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd13"/>
+        <Literal>กข13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd14"/>
+        <Literal>RD14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd14"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD14/01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd14"/>
+        <Literal>กข14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd15"/>
+        <Literal>RD15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd15"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/kk15/rice_17.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd15"/>
+        <Literal>กข15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd16"/>
+        <Literal>RD16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd16"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD16/1.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd16"/>
+        <Literal>กข16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd2"/>
+        <Literal>RD2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD2/089-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd2"/>
+        <Literal>กข2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd21"/>
+        <Literal>RD21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd21"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD21/103-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd21"/>
+        <Literal>กข21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd23"/>
+        <Literal>RD23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd23"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD23/105-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd23"/>
+        <Literal>กข23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd25"/>
+        <Literal>RD25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd25"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD25/107-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd25"/>
+        <Literal>กข25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd27"/>
+        <Literal>RD27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd27"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s16/rice_20.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd27"/>
+        <Literal>กข27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd29"/>
+        <Literal>RD29 (Chi-nat 80)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd29"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD29/rd29b.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd29"/>
+        <Literal>กข29 (ชัยนาท 80)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd3"/>
+        <Literal>RD3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd3"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD3/091-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd3"/>
+        <Literal>กข3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd31"/>
+        <Literal>RD31 (Pathum Thani 80)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd31"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD31/01.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd31"/>
+        <Literal>กข31 (ปทุมธานี 80)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd35"/>
+        <Literal>RD35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd35"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s17/003.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd35"/>
+        <Literal>กข35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd4"/>
+        <Literal>RD4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd4"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD4/093-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd4"/>
+        <Literal>กข4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd5"/>
+        <Literal>RD5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd5"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s11/rice_05.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd5"/>
+        <Literal>กข5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd6"/>
+        <Literal>RD6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd6"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s12/rice_08.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd6"/>
+        <Literal>กข6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd7"/>
+        <Literal>RD7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd7"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD7/095-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd7"/>
+        <Literal>กข7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd8"/>
+        <Literal>RD8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd8"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s13/rice_11.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd8"/>
+        <Literal>กข8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#rd9"/>
+        <Literal>RD9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#rd9"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD9/097-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#rd9"/>
+        <Literal>กข9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Phitsanulok_1"/>
+        <Literal>Khao´ Jow Hawm Phitsanulok 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Phitsanulok_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s113/rice_38.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Phitsanulok_1"/>
+        <Literal>ข้าวเจ้าหอมพิษณุโลก 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Suphan_Buri"/>
+        <Literal>Khao´ Jow Hawm Suphan Buri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Suphan_Buri"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Jow_Hawm_Suphan_Buri/111-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao´_Jow_Hawm_Suphan_Buri"/>
+        <Literal>ข้าวเจ้าหอมสุพรรณบุรี</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao´_Luang_San-pah-tawng"/>
+        <Literal>Khao´ Luang San-pah-tawng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao´_Luang_San-pah-tawng"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s136/02.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao´_Luang_San-pah-tawng"/>
+        <Literal>ข้าวหลวงสันป่าตอง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao’_Jow_Hawm_Khlong_Luang_1"/>
+        <Literal>Khao’ Jow Hawm Khlong Luang 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao’_Jow_Hawm_Khlong_Luang_1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Jow_Hawm_Khlong_Luang_1/109-1.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao’_Jow_Hawm_Khlong_Luang_1"/>
+        <Literal>ข้าวเจ้าหอมคลองหลวง 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA1"/>
+        <Literal>Khao’ Yipun DOA1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA1"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Yipun_DOA1/199_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA1"/>
+        <Literal>ข้าวญี่ปุ่น กวก.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA2"/>
+        <Literal>Khao’ Yipun DOA2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA2"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Yipun_DOA2/201_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Khao’_Yipun_DOA2"/>
+        <Literal>ข้าวญี่ปุ่น กวก.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Nahng_Cha_–_lawng"/>
+        <Literal>Nahng Cha – lawng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Nahng_Cha_–_lawng"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Nahng_Cha_lawng/145_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Nahng_Cha_–_lawng"/>
+        <Literal>นางฉลอง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEnglishName"/>
+        <NamedIndividual IRI="#Ta_–_pow_Gaew_161"/>
+        <Literal>Ta – pow Gaew 161</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#Ta_–_pow_Gaew_161"/>
+        <Literal>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Ta_pow_Gaew_161/143_2.gif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasThaiName"/>
+        <NamedIndividual IRI="#Ta_–_pow_Gaew_161"/>
+        <Literal>ตะเภาแก้ว 161</Literal>
+    </DataPropertyAssertion>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#hasEnglishName"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEnglishName"/>
+        <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasImage"/>
+        <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasThaiName"/>
+        <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEnglishName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasImage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasThaiName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

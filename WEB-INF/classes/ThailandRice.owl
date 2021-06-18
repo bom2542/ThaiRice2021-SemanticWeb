@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/thairice"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/thairice">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThaiRice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeRice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#beAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#beType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProduct"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRiceAttributeEngName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRiceAttributeThaiName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRiceEngName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRiceThaiName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepNotRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FarmNotRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FarmRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FieldBarley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FieldJapan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fragrant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MixedPaddy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MixedRice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paddy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RD6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RedJasmineNotRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RedJasmineRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sticky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UplandRespond"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Leaf"/>
+        <Class IRI="#Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seed"/>
+        <Class IRI="#Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stem"/>
+        <Class IRI="#Physical"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#TypeRice"/>
+        <NamedIndividual IRI="#Barley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#DeepNotRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#FarmNotRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#FarmRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#FieldBarley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#FieldJapan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TypeRice"/>
+        <NamedIndividual IRI="#Fragrant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TypeRice"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TypeRice"/>
+        <NamedIndividual IRI="#MixedPaddy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#MixedRice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TypeRice"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThaiRice"/>
+        <NamedIndividual IRI="#RD6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#RedJasmineNotRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#RedJasmineRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TypeRice"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attributes"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD5"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD5"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD6"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD6"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#Barley"/>
+        <Literal>Barley rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#Barley"/>
+        <Literal>ข้าวบาร์เลย์</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#DeepNotRespond"/>
+        <Literal>Deep rice not respond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#DeepNotRespond"/>
+        <Literal>พันธุ์ข้าวน้ำลึกไม่ไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+        <Literal>Deep rice respond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+        <Literal>พันธุ์ข้าวน้ำลึกไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#FarmNotRespond"/>
+        <Literal>Farm rice not respond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#FarmNotRespond"/>
+        <Literal>พันธุ์ข้าวไร่ไม่ไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#FarmRespond"/>
+        <Literal>Farm rice respond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#FarmRespond"/>
+        <Literal>พันธุ์ข้าวไร่ไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#FieldBarley"/>
+        <Literal>Field rice barley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#FieldBarley"/>
+        <Literal>ข้าวบาร์เลย์</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#FieldJapan"/>
+        <Literal>Field rice japan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#FieldJapan"/>
+        <Literal>ข้าวญี่ปุ่น</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceAttributeEngName"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+        <Literal>Field rice not repond light</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceAttributeThaiName"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+        <Literal>ข้าวนาสวนที่ไม่ไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceAttributeEngName"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+        <Literal>Field rice repond light</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceAttributeThaiName"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+        <Literal>ข้าวนาสวนที่ไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#Fragrant"/>
+        <Literal>Fragrant rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#Fragrant"/>
+        <Literal>ข้าวจ้าวหอม</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#Japan"/>
+        <Literal>Japan rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#Japan"/>
+        <Literal>ข้าวญี่ปุ่น</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#MixedPaddy"/>
+        <Literal>Mixed paddy rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#MixedPaddy"/>
+        <Literal>ข้าวจ้าวลูกผสม</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#MixedRice"/>
+        <Literal>Mixed rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#MixedRice"/>
+        <Literal>ข้าวลูกผสม</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#Paddy"/>
+        <Literal>Paddy rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#Paddy"/>
+        <Literal>ข้าวจ้าว</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD5"/>
+        <Literal>rd5.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#RD5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">742</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceEngName"/>
+        <NamedIndividual IRI="#RD5"/>
+        <Literal>RD5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceThaiName"/>
+        <NamedIndividual IRI="#RD5"/>
+        <Literal>กข5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImage"/>
+        <NamedIndividual IRI="#RD6"/>
+        <Literal>rd6.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#RD6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">666</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceEngName"/>
+        <NamedIndividual IRI="#RD6"/>
+        <Literal>RD6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceThaiName"/>
+        <NamedIndividual IRI="#RD6"/>
+        <Literal>กข6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#RedJasmineNotRespond"/>
+        <Literal>Red jasmine rice not respond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#RedJasmineNotRespond"/>
+        <Literal>พันธุ์ข้าวแดงไม่ไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#RedJasmineRespond"/>
+        <Literal>Red jasmine rice respond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#RedJasmineRespond"/>
+        <Literal>ข้าวแดงไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#Sticky"/>
+        <Literal>Sticky rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#Sticky"/>
+        <Literal>ข้าวเหนียว</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+        <Literal>Upland rice respond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+        <Literal>พันธุ์ข้าวขึ้นน้ำไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#beAttribute"/>
+        <Class IRI="#ThaiRice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#beType"/>
+        <Class IRI="#ThaiRice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#beAttribute"/>
+        <Class IRI="#Attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#beType"/>
+        <Class IRI="#TypeRice"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasImage"/>
+        <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasProduct"/>
+        <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRiceAttributeEngName"/>
+        <Class IRI="#Attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRiceAttributeThaiName"/>
+        <Class IRI="#Attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRiceEngName"/>
+        <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRiceThaiName"/>
+        <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <Class IRI="#TypeRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <Class IRI="#TypeRice"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasImage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasProduct"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceAttributeEngName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceAttributeThaiName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceEngName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceThaiName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceTypeEngName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceTypeThaiName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

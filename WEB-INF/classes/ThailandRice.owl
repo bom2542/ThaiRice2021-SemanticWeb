@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thairice">
+    <Prefix name="" IRI="http://www.semanticweb.org/thairice"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -36,6 +37,15 @@
         <ObjectProperty IRI="#beAttribute"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#beLeaf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#beSeed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#beStem"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#beType"/>
     </Declaration>
     <Declaration>
@@ -43,6 +53,12 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasProduct"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isPhysicalEngName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isPhysicalThaiName"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#isRiceAttributeEngName"/>
@@ -63,13 +79,28 @@
         <DataProperty IRI="#isRiceTypeThaiName"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Barley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BrownTapOnRiceStawArea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DeepNotRespond"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DeepRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FallFlag"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FarmNotRespond"/>
@@ -93,7 +124,22 @@
         <NamedIndividual IRI="#Fragrant"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GobaeShape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HalfSetShape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Long"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LongFlag"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MixedPaddy"/>
@@ -117,10 +163,43 @@
         <NamedIndividual IRI="#RedJasmineRespond"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiceStrawButtPoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiceStrawFrecklesBrown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiceStrawSeedsQuiteFortified"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiceStrawShortHair"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiceStrawTipSlightlyBent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SetFlag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SetShape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SetStraightFlag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Sticky"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#UplandRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WhiteRiceStraw"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Leaf"/>
@@ -135,8 +214,24 @@
         <Class IRI="#Physical"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Leaf"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#TypeRice"/>
         <NamedIndividual IRI="#Barley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#Brown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#BrownTapOnRiceStawArea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Attributes"/>
@@ -145,6 +240,10 @@
     <ClassAssertion>
         <Class IRI="#Attributes"/>
         <NamedIndividual IRI="#DeepRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaf"/>
+        <NamedIndividual IRI="#FallFlag"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Attributes"/>
@@ -175,8 +274,28 @@
         <NamedIndividual IRI="#Fragrant"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Stem"/>
+        <NamedIndividual IRI="#GobaeShape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stem"/>
+        <NamedIndividual IRI="#HalfSetShape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaf"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#TypeRice"/>
         <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaf"/>
+        <NamedIndividual IRI="#Long"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaf"/>
+        <NamedIndividual IRI="#LongFlag"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#TypeRice"/>
@@ -207,12 +326,56 @@
         <NamedIndividual IRI="#RedJasmineRespond"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#RiceStrawButtPoint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#RiceStrawFrecklesBrown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#RiceStrawSeedsQuiteFortified"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#RiceStrawShortHair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#RiceStrawTipSlightlyBent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaf"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stem"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leaf"/>
+        <NamedIndividual IRI="#SetStraightFlag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stem"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#TypeRice"/>
         <NamedIndividual IRI="#Sticky"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Attributes"/>
         <NamedIndividual IRI="#UplandRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seed"/>
+        <NamedIndividual IRI="#WhiteRiceStraw"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beAttribute"/>
@@ -235,6 +398,16 @@
         <NamedIndividual IRI="#Sticky"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+        <Literal>Angle Flag leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+        <Literal>ใบธงทำมุม</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isRiceTypeEngName"/>
         <NamedIndividual IRI="#Barley"/>
         <Literal>Barley rice</Literal>
@@ -243,6 +416,36 @@
         <DataProperty IRI="#isRiceTypeThaiName"/>
         <NamedIndividual IRI="#Barley"/>
         <Literal>ข้าวบาร์เลย์</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#Brown"/>
+        <Literal>Brown seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#Brown"/>
+        <Literal>เมล็ดข้าวเปลือกสีน้ำตาล</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#BrownTapOnRiceStawArea"/>
+        <Literal>Brown Tap On Rice Staw Area seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#BrownTapOnRiceStawArea"/>
+        <Literal>เมล็ดข้าวเปลือกแถบสีน้ำตาลบนพื้นสีฟาง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
+        <Literal>Dark Brown Short Hair seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
+        <Literal>เมล็ดข้าวเปลือกสีน้ำตาลเข้ม ขนสั้น</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceTypeEngName"/>
@@ -263,6 +466,16 @@
         <DataProperty IRI="#isRiceTypeThaiName"/>
         <NamedIndividual IRI="#DeepRespond"/>
         <Literal>พันธุ์ข้าวน้ำลึกไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#FallFlag"/>
+        <Literal>Falling Flag leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#FallFlag"/>
+        <Literal>ใบธงตก</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceTypeEngName"/>
@@ -335,6 +548,36 @@
         <Literal>ข้าวจ้าวหอม</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#GobaeShape"/>
+        <Literal>Gobae Shape stem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#GobaeShape"/>
+        <Literal>ทรงกอแบะ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#HalfSetShape"/>
+        <Literal>Half Set Shape stem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#HalfSetShape"/>
+        <Literal>ทรงกอค่อนข้างตั้ง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+        <Literal>Inclined Flag leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+        <Literal>ใบธงเอน</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isRiceTypeEngName"/>
         <NamedIndividual IRI="#Japan"/>
         <Literal>Japan rice</Literal>
@@ -343,6 +586,26 @@
         <DataProperty IRI="#isRiceTypeThaiName"/>
         <NamedIndividual IRI="#Japan"/>
         <Literal>ข้าวญี่ปุ่น</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#Long"/>
+        <Literal>Long leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#Long"/>
+        <Literal>ใบยาว</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#LongFlag"/>
+        <Literal>Long Flag leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#LongFlag"/>
+        <Literal>ใบธงยาว</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceTypeEngName"/>
@@ -435,6 +698,106 @@
         <Literal>ข้าวแดงไวต่อช่วงแสง</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+        <Literal>Rice Straw seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+        <Literal>เมล็ดข้าวเปลือกสีฟาง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#RiceStrawButtPoint"/>
+        <Literal>Rice Straw Butt Point seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#RiceStrawButtPoint"/>
+        <Literal>เมล็ดข้าวเปลือกสีฟาง ก้นจุด</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#RiceStrawFrecklesBrown"/>
+        <Literal>Rice Straw Freckles Brown seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#RiceStrawFrecklesBrown"/>
+        <Literal>เมล็ดข้าวเปลือกสีฟางกระน้ำตาล</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#RiceStrawSeedsQuiteFortified"/>
+        <Literal>Rice Straw Seeds Quite Fortified seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#RiceStrawSeedsQuiteFortified"/>
+        <Literal>เมล็ดข้าวเปลือกสีฟาง เมล็ดค่อนข้างป้อม</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#RiceStrawShortHair"/>
+        <Literal>Rice Straw Short Hair seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#RiceStrawShortHair"/>
+        <Literal>เมล็ดข้าวเปลือกสีฟาง ขนสั้น</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#RiceStrawTipSlightlyBent"/>
+        <Literal>Rice Straw Tip Slightly Bent seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#RiceStrawTipSlightlyBent"/>
+        <Literal>เมล็ดข้าวเปลือกสีฟาง ปลายบิดงอเล็กน้อย</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#SetFlag"/>
+        <Literal>Set Flag leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#SetFlag"/>
+        <Literal>ใบธงตั้ง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#SetShape"/>
+        <Literal>Set Shape stem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#SetShape"/>
+        <Literal>ทรงกอตั้ง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#SetStraightFlag"/>
+        <Literal>Set Straight Flag leaf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#SetStraightFlag"/>
+        <Literal>ใบธงตั้งตรง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+        <Literal>Spread Shape stem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+        <Literal>ทรงกอกระจาย</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isRiceTypeEngName"/>
         <NamedIndividual IRI="#Sticky"/>
         <Literal>Sticky rice</Literal>
@@ -454,8 +817,30 @@
         <NamedIndividual IRI="#UplandRespond"/>
         <Literal>พันธุ์ข้าวขึ้นน้ำไวต่อช่วงแสง</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <NamedIndividual IRI="#WhiteRiceStraw"/>
+        <Literal>White Rice Straw seed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <NamedIndividual IRI="#WhiteRiceStraw"/>
+        <Literal>เมล็ดข้าวเปลือกสีฟางอ่อน</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#beAttribute"/>
+        <Class IRI="#ThaiRice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#beLeaf"/>
+        <Class IRI="#ThaiRice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#beSeed"/>
+        <Class IRI="#ThaiRice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#beStem"/>
         <Class IRI="#ThaiRice"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -465,6 +850,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#beAttribute"/>
         <Class IRI="#Attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#beLeaf"/>
+        <Class IRI="#Leaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#beSeed"/>
+        <Class IRI="#Seed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#beStem"/>
+        <Class IRI="#Stem"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#beType"/>
@@ -477,6 +874,14 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasProduct"/>
         <Class IRI="#ThaiRice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <Class IRI="#Physical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <Class IRI="#Physical"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#isRiceAttributeEngName"/>
@@ -509,6 +914,14 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasProduct"/>
         <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isPhysicalEngName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isPhysicalThaiName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#isRiceAttributeEngName"/>

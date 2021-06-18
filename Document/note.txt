@@ -1,3 +1,7 @@
+File Group :
+https://docs.google.com/document/d/11BTPJYBkle_CI4ghmXXZhvj6IcRh_yJANwRedp9VpHQ/edit?usp=sharing
++++++
+
 cd WEB-INF/classes/com/example
 javac -cp "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\jsp-api.jar" mySparql.java
 

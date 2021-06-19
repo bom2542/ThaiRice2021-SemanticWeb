@@ -124,6 +124,12 @@
         <DataProperty IRI="#isRiceLandRaceThai"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#isRiceThaiName"/>
     </Declaration>
     <Declaration>
@@ -131,6 +137,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#isRiceTypeThaiName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AngleFlag"/>
@@ -152,6 +161,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CP304"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Center"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ChaiNat1"/>
@@ -179,6 +191,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DeepRespond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#East"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FallFlag"/>
@@ -311,6 +326,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#LookDaengPattani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowerEastNorth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowerNorth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowerSouth"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#LuengThong"/>
@@ -592,6 +616,18 @@
         <NamedIndividual IRI="#UplandRespond"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#UpperEastNorth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UpperNorth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UpperSouth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#West"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#WhiteRiceStraw"/>
     </Declaration>
     <SubClassOf>
@@ -614,6 +650,10 @@
         <Class IRI="#Stem"/>
         <Class IRI="#Physical"/>
     </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#All"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Leaf"/>
         <NamedIndividual IRI="#AngleFlag"/>
@@ -641,6 +681,10 @@
     <ClassAssertion>
         <Class IRI="#ThaiRice"/>
         <NamedIndividual IRI="#CP304"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Center"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ThaiRice"/>
@@ -677,6 +721,10 @@
     <ClassAssertion>
         <Class IRI="#Attributes"/>
         <NamedIndividual IRI="#DeepRespond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#East"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Leaf"/>
@@ -853,6 +901,18 @@
     <ClassAssertion>
         <Class IRI="#ThaiRice"/>
         <NamedIndividual IRI="#LookDaengPattani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#LowerEastNorth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#LowerNorth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#LowerSouth"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Landrace"/>
@@ -1227,6 +1287,22 @@
         <NamedIndividual IRI="#UplandRespond"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#UpperEastNorth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#UpperNorth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#UpperSouth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#West"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Seed"/>
         <NamedIndividual IRI="#WhiteRiceStraw"/>
     </ClassAssertion>
@@ -1239,6 +1315,21 @@
         <ObjectProperty IRI="#beLeaf"/>
         <NamedIndividual IRI="#Ayutthaya1"/>
         <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#Ayutthaya1"/>
+        <NamedIndividual IRI="#Center"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#Ayutthaya1"/>
+        <NamedIndividual IRI="#East"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#Ayutthaya1"/>
+        <NamedIndividual IRI="#LowerNorth"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
@@ -1264,6 +1355,11 @@
         <ObjectProperty IRI="#beLeaf"/>
         <NamedIndividual IRI="#BahngTaen"/>
         <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#BahngTaen"/>
+        <NamedIndividual IRI="#East"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
@@ -1291,6 +1387,11 @@
         <NamedIndividual IRI="#SetFlag"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#CP304"/>
+        <NamedIndividual IRI="#All"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
         <NamedIndividual IRI="#CP304"/>
         <NamedIndividual IRI="#RiceStraw"/>
@@ -1316,6 +1417,11 @@
         <NamedIndividual IRI="#SetFlag"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#ChaiNat1"/>
+        <NamedIndividual IRI="#All"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
         <NamedIndividual IRI="#ChaiNat1"/>
         <NamedIndividual IRI="#RiceStraw"/>
@@ -1339,6 +1445,11 @@
         <ObjectProperty IRI="#beLeaf"/>
         <NamedIndividual IRI="#ChaiNat2"/>
         <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#ChaiNat2"/>
+        <NamedIndividual IRI="#LowerEastNorth"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
@@ -1366,6 +1477,16 @@
         <NamedIndividual IRI="#SetFlag"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#ChiangPhatthalung"/>
+        <NamedIndividual IRI="#LowerSouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#ChiangPhatthalung"/>
+        <NamedIndividual IRI="#UpperSouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
         <NamedIndividual IRI="#ChiangPhatthalung"/>
         <NamedIndividual IRI="#RiceStraw"/>
@@ -1389,6 +1510,11 @@
         <ObjectProperty IRI="#beLeaf"/>
         <NamedIndividual IRI="#Chorlung97"/>
         <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#Chorlung97"/>
+        <NamedIndividual IRI="#LowerSouth"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
@@ -1416,6 +1542,16 @@
         <NamedIndividual IRI="#FallFlag"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#ChumPhae60"/>
+        <NamedIndividual IRI="#LowerEastNorth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#ChumPhae60"/>
+        <NamedIndividual IRI="#UpperEastNorth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
         <NamedIndividual IRI="#ChumPhae60"/>
         <NamedIndividual IRI="#RiceStrawShortHair"/>
@@ -1439,6 +1575,16 @@
         <ObjectProperty IRI="#beLeaf"/>
         <NamedIndividual IRI="#DawkPaYawm"/>
         <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#DawkPaYawm"/>
+        <NamedIndividual IRI="#LowerSouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#DawkPaYawm"/>
+        <NamedIndividual IRI="#UpperSouth"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
@@ -1471,6 +1617,16 @@
         <NamedIndividual IRI="#InclinedFlag"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#GaenJan"/>
+        <NamedIndividual IRI="#LowerSouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#GaenJan"/>
+        <NamedIndividual IRI="#UpperSouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
         <NamedIndividual IRI="#GaenJan"/>
         <NamedIndividual IRI="#RiceStraw"/>
@@ -1496,6 +1652,16 @@
         <NamedIndividual IRI="#Long"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#GamPai15"/>
+        <NamedIndividual IRI="#LowerNorth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#GamPai15"/>
+        <NamedIndividual IRI="#UpperNorth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
         <NamedIndividual IRI="#GamPai15"/>
         <NamedIndividual IRI="#RiceStrawSeedsQuiteFortified"/>
@@ -1519,6 +1685,16 @@
         <ObjectProperty IRI="#beLeaf"/>
         <NamedIndividual IRI="#GooMeuangLuang"/>
         <NamedIndividual IRI="#InclinedFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#GooMeuangLuang"/>
+        <NamedIndividual IRI="#LowerSouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRegion"/>
+        <NamedIndividual IRI="#GooMeuangLuang"/>
+        <NamedIndividual IRI="#UpperSouth"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beSeed"/>
@@ -3885,6 +4061,166 @@
         <NamedIndividual IRI="#SuphanBuri1"/>
         <NamedIndividual IRI="#Paddy"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SuphanBuri2"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SuphanBuri2"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SuphanBuri2"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SuphanBuri2"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SuphanBuri2"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SuphanBuri3"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SuphanBuri3"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SuphanBuri3"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SuphanBuri3"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SuphanBuri3"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SuphanBuri60"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SuphanBuri60"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SuphanBuri60"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SuphanBuri60"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SuphanBuri60"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SuphanBuri90"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SuphanBuri90"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SuphanBuri90"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SuphanBuri90"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SuphanBuri90"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Surin1"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Surin1"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Surin1"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Surin1"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Surin1"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#TaPowGaew161"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#TaPowGaew161"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#TaPowGaew161"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#TaPowGaew161"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#TaPowGaew161"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#All"/>
+        <Literal>All region have Irrigation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#All"/>
+        <Literal>ทุกภาคที่มีการชลประทานหรือควบคุมระดับน้ำได้และสูงกว่าระดับน้ำทะเล</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPhysicalEngName"/>
         <NamedIndividual IRI="#AngleFlag"/>
@@ -3984,6 +4320,16 @@
         <DataProperty IRI="#isRiceThaiName"/>
         <NamedIndividual IRI="#CP304"/>
         <Literal>ซีพี 304</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#Center"/>
+        <Literal>Center region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#Center"/>
+        <Literal>ภาคกลาง</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasImage"/>
@@ -4134,6 +4480,16 @@
         <DataProperty IRI="#isRiceTypeThaiName"/>
         <NamedIndividual IRI="#DeepRespond"/>
         <Literal>พันธุ์ข้าวน้ำลึกไวต่อช่วงแสง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#East"/>
+        <Literal>East region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#East"/>
+        <Literal>ภาคตะวันออก</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPhysicalEngName"/>
@@ -4869,6 +5225,36 @@
         <DataProperty IRI="#isRiceThaiName"/>
         <NamedIndividual IRI="#LookDaengPattani"/>
         <Literal>ลูกแดงปัตตานี</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#LowerEastNorth"/>
+        <Literal>Lower east north region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#LowerEastNorth"/>
+        <Literal>ภาคตะวัันออกเฉียงเหนือตอนล่าง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#LowerNorth"/>
+        <Literal>Upper north region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#LowerNorth"/>
+        <Literal>ภาคเหนือตอนบน</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#LowerSouth"/>
+        <Literal>Upper south region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#LowerSouth"/>
+        <Literal>ภาคใต้ตอนบน</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceLandRaceEng"/>
@@ -6546,6 +6932,46 @@
         <Literal>พันธุ์ข้าวขึ้นน้ำไวต่อช่วงแสง</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#UpperEastNorth"/>
+        <Literal>Upper east north region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#UpperEastNorth"/>
+        <Literal>ภาคตะวันออกเฉียงเหนือตอนบน</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#UpperNorth"/>
+        <Literal>Lower north region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#UpperNorth"/>
+        <Literal>ภาคเหนืือตอนล่างรวมถึงภาคกลางตอนบนด้วย</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#UpperSouth"/>
+        <Literal>Lower south region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#UpperSouth"/>
+        <Literal>ภาคใต้ตอนล่าง</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <NamedIndividual IRI="#West"/>
+        <Literal>West region</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <NamedIndividual IRI="#West"/>
+        <Literal>ภาคตะวันตก</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isPhysicalEngName"/>
         <NamedIndividual IRI="#WhiteRiceStraw"/>
         <Literal>White Rice Straw seed</Literal>
@@ -6692,6 +7118,14 @@
         <Class IRI="#Landrace"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <Class IRI="#Region"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
+        <Class IRI="#Region"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#isRiceThaiName"/>
         <Class IRI="#ThaiRice"/>
     </DataPropertyDomain>
@@ -6757,6 +7191,14 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#isRiceLandRaceThai"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceRegionEngName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRiceRegionThaiName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>

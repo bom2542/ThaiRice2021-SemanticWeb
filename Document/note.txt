@@ -10,4 +10,4 @@ javac -classpath "C:\Users\Project1\WEB-INF\lib\*; C:\Program Files\Apache Softw
 javac -cp "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib"\*;
 "C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\lab10-02\WEB-INF\lib"\* mySparql.java
 
-javac -classpath "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\*; C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\lab10-02\WEB-INF\lib\*;" mySparql.java
+javac -classpath "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\*;C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ThaiRice2021\WEB-INF\lib\*;" mySparql.java

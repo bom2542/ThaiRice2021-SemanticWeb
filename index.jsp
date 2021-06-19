@@ -17,14 +17,14 @@
 
             SELECT ?name ?phone ?brand
                 WHERE {
-              	    
-                }?x ex:hasPersonName ?name .
+              	    ?x ex:hasPersonName ?name .
                     ?x ex:hasTelephoneNumber ?phone .
                     ?x ex:hasCar ?y .
                     ?y ex:hasSeriesName ?brand .
                     FILTER regex(?name, "${param.name}", "i")
                     FILTER regex(?phone, "${param.tel}")
                     FILTER regex(?brand, "${param.car}", "i")
+                }
           </textarea>
        <input type="submit">
       </form>

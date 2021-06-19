@@ -2412,6 +2412,31 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#PTNC9600449"/>
+        <NamedIndividual IRI="#FarmRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#PTNC9600449"/>
+        <NamedIndividual IRI="#FallFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#PTNC9600449"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#PTNC9600449"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#PTNC9600449"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
         <NamedIndividual IRI="#PathumThani1"/>
         <NamedIndividual IRI="#FieldNotRespond"/>
     </ObjectPropertyAssertion>
@@ -2537,6 +2562,981 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Phitsanulok3"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Phitsanulok3"/>
+        <NamedIndividual IRI="#Long"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Phitsanulok3"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Phitsanulok3"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Phitsanulok3"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Phitsanulok601"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Phitsanulok601"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Phitsanulok601"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Phitsanulok601"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Phitsanulok601"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Phitsanulok602"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Phitsanulok602"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Phitsanulok602"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Phitsanulok602"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Phitsanulok602"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Phitsanulok80"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Phitsanulok80"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Phitsanulok80"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Phitsanulok80"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Phitsanulok80"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Phitsanulok_2"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Phrae1"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Phrae1"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Phrae1"/>
+        <NamedIndividual IRI="#Brown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Phrae1"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Phrae1"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#PinGaew56"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#PinGaew56"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#PinGaew56"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#PinGaew56"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#PinGaew56"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#PlaiNgahmPrachinBuri"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#PlaiNgahmPrachinBuri"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#PlaiNgahmPrachinBuri"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#PlaiNgahmPrachinBuri"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#PlaiNgahmPrachinBuri"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#PrachinBuri1"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#PrachinBuri1"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#PrachinBuri1"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#PrachinBuri1"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#PrachinBuri1"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#PrachinBuri2"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#PrachinBuri2"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#PrachinBuri2"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#PrachinBuri2"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#PrachinBuri2"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#PuangRai2"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#PuangRai2"/>
+        <NamedIndividual IRI="#Long"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#PuangRai2"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#PuangRai2"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#PuangRai2"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#R258"/>
+        <NamedIndividual IRI="#FarmNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#R258"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#R258"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#R258"/>
+        <NamedIndividual IRI="#GobaeShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#R258"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD1"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD1"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD1"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD1"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD1"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD10"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD10"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD10"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD10"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD10"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD11"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD11"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD11"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD11"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD11"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD12Nongkhai80"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD12Nongkhai80"/>
+        <NamedIndividual IRI="#FallFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD12Nongkhai80"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD12Nongkhai80"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD12Nongkhai80"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD13"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD13"/>
+        <NamedIndividual IRI="#FallFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD13"/>
+        <NamedIndividual IRI="#Brown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD13"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD13"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD14"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD14"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD14"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD14"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD14"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD15"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD15"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD15"/>
+        <NamedIndividual IRI="#RiceStrawTipSlightlyBent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD15"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD15"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD16"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD16"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD16"/>
+        <NamedIndividual IRI="#RiceStrawTipSlightlyBent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD16"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD16"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD17"/>
+        <NamedIndividual IRI="#DeepNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD17"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD17"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD17"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD17"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD19"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD19"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD19"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD19"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD19"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD2"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD2"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD2"/>
+        <NamedIndividual IRI="#WhiteRiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD2"/>
+        <NamedIndividual IRI="#SpreadShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD2"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD21"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD21"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD21"/>
+        <NamedIndividual IRI="#RiceStrawFrecklesBrown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD21"/>
+        <NamedIndividual IRI="#GobaeShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD21"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD23"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD23"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD23"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD23"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD23"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD25"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD25"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD25"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD25"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD25"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD27"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD27"/>
+        <NamedIndividual IRI="#Long"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD27"/>
+        <NamedIndividual IRI="#RiceStrawSeedsQuiteFortified"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD27"/>
+        <NamedIndividual IRI="#HalfSetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD27"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD29Chainat80"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD29Chainat80"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD29Chainat80"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD29Chainat80"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD29Chainat80"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD3"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD3"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD3"/>
+        <NamedIndividual IRI="#Brown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD3"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD3"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD31Pathumthani80"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD31Pathumthani80"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD31Pathumthani80"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD31Pathumthani80"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD31Pathumthani80"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD33HomUbon33"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD33HomUbon33"/>
+        <NamedIndividual IRI="#FallFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD33HomUbon33"/>
+        <NamedIndividual IRI="#DarkBrownShortHair"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD33HomUbon33"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD33HomUbon33"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD35Rangsit80"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD35Rangsit80"/>
+        <NamedIndividual IRI="#SetStraightFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD35Rangsit80"/>
+        <NamedIndividual IRI="#RiceStrawShortHair"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD35Rangsit80"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD35Rangsit80"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD37"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD37"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD37"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD37"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD37"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD39"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD39"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD39"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD39"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD39"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD4"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD4"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD4"/>
+        <NamedIndividual IRI="#Brown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD4"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD4"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD41"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD41"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD41"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD41"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD41"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD43"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD43"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD43"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD43"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD43"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD45"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD45"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD45"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD45"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD45"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD47"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD47"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD47"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD47"/>
+        <NamedIndividual IRI="#GobaeShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD47"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
         <NamedIndividual IRI="#RD5"/>
         <NamedIndividual IRI="#FieldRespond"/>
     </ObjectPropertyAssertion>
@@ -2587,6 +3587,31 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD7"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD7"/>
+        <NamedIndividual IRI="#Long"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD7"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD7"/>
+        <NamedIndividual IRI="#GobaeShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD7"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
         <NamedIndividual IRI="#RD8"/>
         <NamedIndividual IRI="#FieldRespond"/>
     </ObjectPropertyAssertion>
@@ -2609,6 +3634,256 @@
         <ObjectProperty IRI="#beType"/>
         <NamedIndividual IRI="#RD8"/>
         <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RD9"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RD9"/>
+        <NamedIndividual IRI="#AngleFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RD9"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RD9"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RD9"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RedHawnRice"/>
+        <NamedIndividual IRI="#RedJasmineRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RedHawnRice"/>
+        <NamedIndividual IRI="#FallFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RedHawnRice"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RedHawnRice"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RedHawnRice"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#RedRoseRice"/>
+        <NamedIndividual IRI="#RedJasmineNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#RedRoseRice"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#RedRoseRice"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#RedRoseRice"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#RedRoseRice"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SakonNakhon"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SakonNakhon"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SakonNakhon"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SakonNakhon"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SakonNakhon"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Samerng1"/>
+        <NamedIndividual IRI="#FieldBarley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Samerng1"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Samerng1"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Samerng1"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Samerng1"/>
+        <NamedIndividual IRI="#Barley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <NamedIndividual IRI="#FieldBarley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#Samerng_2"/>
+        <NamedIndividual IRI="#Barley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SanPahTawng1"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SanPahTawng1"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SanPahTawng1"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SanPahTawng1"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SanPahTawng1"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SangYodPhattalung"/>
+        <NamedIndividual IRI="#RedJasmineRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SangYodPhattalung"/>
+        <NamedIndividual IRI="#SetFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SangYodPhattalung"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SangYodPhattalung"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SangYodPhattalung"/>
+        <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SewMaeJan"/>
+        <NamedIndividual IRI="#FarmRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SewMaeJan"/>
+        <NamedIndividual IRI="#LongFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SewMaeJan"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SewMaeJan"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SewMaeJan"/>
+        <NamedIndividual IRI="#Sticky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beAttribute"/>
+        <NamedIndividual IRI="#SuphanBuri1"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beLeaf"/>
+        <NamedIndividual IRI="#SuphanBuri1"/>
+        <NamedIndividual IRI="#InclinedFlag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beSeed"/>
+        <NamedIndividual IRI="#SuphanBuri1"/>
+        <NamedIndividual IRI="#RiceStraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beStem"/>
+        <NamedIndividual IRI="#SuphanBuri1"/>
+        <NamedIndividual IRI="#SetShape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beType"/>
+        <NamedIndividual IRI="#SuphanBuri1"/>
+        <NamedIndividual IRI="#Paddy"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPhysicalEngName"/>

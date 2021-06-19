@@ -11,16 +11,14 @@
   <short-name>simple</short-name>
   <uri>http://tomcat.apache.org/example-taglib</uri>
 
-
-
-<tag>
-  <name>sparqllab</name>
-  <tag-class>com.example.mySparql</tag-class>
-  <attribute>  
-    <name>qstring</name>  
-    <required>true</required>
-    <rtexprvalue>true</rtexprvalue> 
-  </attribute>
-</tag>
+  <tag>
+    <name>sparqllab</name>
+    <tag-class>com.example.mySparql</tag-class>
+    <attribute>
+      <name>qstring</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
 
 </taglib>

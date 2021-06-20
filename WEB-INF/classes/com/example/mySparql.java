@@ -33,7 +33,7 @@ public class mySparql extends TagSupport {
 		try {
 			if (!qstring.equals("")) {
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
-				Model model = FileManager.get().loadModel("carrdf.owl");
+				Model model = FileManager.get().loadModel("ThailandRice19062564.owl");
 				Query query = QueryFactory.create(qstring);
 				QueryExecution qexec = QueryExecutionFactory.create(query, model);
 

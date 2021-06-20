@@ -1707,9 +1707,74 @@
         <NamedIndividual IRI="#Paddy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#beSeed"/>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#DeepNotRespond"/>
+        <NamedIndividual IRI="#Deep"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#DeepNotRespond"/>
+        <NamedIndividual IRI="#NotRespondLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+        <NamedIndividual IRI="#Deep"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#DeepRespond"/>
+        <NamedIndividual IRI="#RespondLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#FarmNotRespond"/>
+        <NamedIndividual IRI="#Farm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#FarmNotRespond"/>
+        <NamedIndividual IRI="#NotRespondLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
         <NamedIndividual IRI="#FarmRespond"/>
-        <NamedIndividual IRI="#RiceStraw"/>
+        <NamedIndividual IRI="#Farm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#FarmRespond"/>
+        <NamedIndividual IRI="#RespondLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#FieldBarley"/>
+        <NamedIndividual IRI="#GardenField"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#FieldJapan"/>
+        <NamedIndividual IRI="#GardenField"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+        <NamedIndividual IRI="#GardenField"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#FieldNotRespond"/>
+        <NamedIndividual IRI="#NotRespondLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+        <NamedIndividual IRI="#GardenField"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#FieldRespond"/>
+        <NamedIndividual IRI="#RespondLight"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beAttribute"/>
@@ -4787,6 +4852,16 @@
         <NamedIndividual IRI="#Paddy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#RedJasmineNotRespond"/>
+        <NamedIndividual IRI="#NotRespondLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#RedJasmineRespond"/>
+        <NamedIndividual IRI="#RespondLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#beAttribute"/>
         <NamedIndividual IRI="#RedRoseRice"/>
         <NamedIndividual IRI="#RedJasmineNotRespond"/>
@@ -5290,6 +5365,16 @@
         <ObjectProperty IRI="#beType"/>
         <NamedIndividual IRI="#TaPowGaew161"/>
         <NamedIndividual IRI="#Paddy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beEcosystem"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+        <NamedIndividual IRI="#Water"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beRespond"/>
+        <NamedIndividual IRI="#UplandRespond"/>
+        <NamedIndividual IRI="#RespondLight"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceAdvantageEngName"/>

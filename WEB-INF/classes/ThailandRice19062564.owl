@@ -6404,7 +6404,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceRegionThaiName"/>
         <NamedIndividual IRI="#LowerEastNorth"/>
-        <Literal>ภาคตะวัันออกเฉียงเหนือตอนล่าง</Literal>
+        <Literal>ภาคตะวันออกเฉียงเหนือตอนล่าง</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceRegionEngName"/>
@@ -8179,7 +8179,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceRegionThaiName"/>
         <NamedIndividual IRI="#UpperNorth"/>
-        <Literal>ภาคเหนืือตอนล่างรวมถึงภาคกลางตอนบนด้วย</Literal>
+        <Literal>ภาคเหนือตอนล่างรวมถึงภาคกลางตอนบนด้วย</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isRiceRegionEngName"/>

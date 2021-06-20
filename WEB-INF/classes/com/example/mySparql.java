@@ -27,13 +27,12 @@ public class mySparql extends TagSupport {
 		this.qstring = qstring;
 	}
 
-
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
 		try {
 			if (!qstring.equals("")) {
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
-				Model model = FileManager.get().loadModel("ThailandRice19062564.owl");
+				Model model = FileManager.get().loadModel("ThaiRice.owl");
 				Query query = QueryFactory.create(qstring);
 				QueryExecution qexec = QueryExecutionFactory.create(query, model);
 

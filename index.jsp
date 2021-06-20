@@ -40,16 +40,12 @@
 <%--        <b>Car : </b><input type="text" name="car" value="${param["car"]}">--%>
 
         <textarea name="qstring" value="${param.qstring}" rows="10" cols="70" style="display:none;">
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX owl: <http://www.w3.org/2002/07/owl#>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             PREFIX ex: <http://www.semanticweb.org/thairice#>
 
-            SELECT ?RiceEngName ?RiceThaiName
+            SELECT ?ThaiRice ?RiceEngName
                 WHERE {
                     ?ThaiRice ex:isRiceEngName ?RiceEngName .
-                    ?ThaiRice ex:isRiceThaiName ?RiceThaiName .
                 }
           </textarea>
         <input type="submit">

@@ -8,11 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- font awesome v5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <title>[ Welcome ] - ThaiRice2021</title>
-    <!--sweet alert-->
+    <!-- jquery-->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+    <title>[ Welcome ] - ThaiRice2021</title>
     <style>
         body {
             font-family: 'Kanit', sans-serif;

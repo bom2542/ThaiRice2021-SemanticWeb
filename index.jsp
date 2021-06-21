@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- font awesome v5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <title>[ Welcome ] - ThaiRice2021</title>
     <!--sweet alert-->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
@@ -16,42 +17,27 @@
         body {
             font-family: 'Kanit', sans-serif;
         }
-        nav #topic_bold {
-            font-weight: bold;
-        }
-        .col-example {
-            padding: 1rem;
-            background-color: #33b5e5;
-            border: 2px solid #fff;
-            color: #fff;
-            text-align: center;
-        }
-        html {
-            scroll-behavior: smooth;
-        }
     </style>
 </head>
 <body>
 <h1>Thai Rice Project 2021 Search</h1>
-<blockquote>
     <form action="index.jsp" method="POST">
-<%--        <b>Name : </b><input type="text" name="name" value="${param["name"]}">--%>
-<%--        <b>Telephone : </b><input type="text" name="tel" value="${param["tel"]}">--%>
-<%--        <b>Car : </b><input type="text" name="car" value="${param["car"]}">--%>
 
-        <textarea name="qstring" value="${param.qstring}" rows="10" cols="70" style="display:none;">
+        <textarea name="qstring" value="${param.qstring}" rows="10" cols="70">
+
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             PREFIX ex: <http://www.semanticweb.org/thairice#>
 
             SELECT ?ThaiRice ?RiceEngName
-                WHERE {
-                    ?ThaiRice ex:isRiceEngName ?RiceEngName .
-                }
+            WHERE {
+                ?ThaiRice ex:isRiceEngName ?RiceEngName .
+            }
+
           </textarea>
         <input type="submit">
     </form>
-    <br>
+
     <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
-</blockquote>
+
 </body>
 </html>

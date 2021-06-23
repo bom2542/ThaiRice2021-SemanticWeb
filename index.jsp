@@ -24,6 +24,7 @@
 </head>
 <body>
    <blockquote>
+      <jsp:include page="input1.jsp"/>
       <h3>Input your SPARQL Query</h3>
         <form action="index.jsp" method="POST">
           <textarea name="qstring" value="${param.qstring}" rows="10" cols="70">

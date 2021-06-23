@@ -2689,7 +2689,7 @@
         <rice:beSeed rdf:resource="http://www.myontology.com/rice#RiceStraw"/>
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
-        <rice:hasImage>http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD9/097-1.gif</rice:hasImage>
+        <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD9/097-1.gif&quot;/&gt;</rice:hasImage>
         <rice:hasProduct>657</rice:hasProduct>
         <rice:isRiceEngName>RD9</rice:isRiceEngName>
         <rice:isRiceThaiName>กข9</rice:isRiceThaiName>

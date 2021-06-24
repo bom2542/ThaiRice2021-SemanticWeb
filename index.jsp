@@ -23,13 +23,18 @@
   </style>
 </head>
 <body>
-   <blockquote>
-      <jsp:include page="input1.jsp"/>
-      <h3>Input your SPARQL Query</h3>
-      <jsp:include page="SPARQL_Query1.jsp"/>
-      <br>    
-      <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
-   </blockquote>
+<blockquote>
+  <jsp:include page = "header.jsp"/>
+  
+
+  <div style="margin: 20px 20px;">
+    <h3>Input your SPARQL Query</h3>
+    <jsp:include page="SPARQL_Query1.jsp"/>
+    <br>
+    <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
+  </div>    
+  
+</blockquote>
 </html>
 
     

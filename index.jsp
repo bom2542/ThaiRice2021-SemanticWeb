@@ -19,6 +19,7 @@
   <style>
     body {  
         font-family: 'Kanit', sans-serif;
+        background-color: rgba(248, 248, 248, 0.973);
     }
   </style>
 </head>
@@ -31,9 +32,13 @@
     <h3>Input your SPARQL Query</h3>
     <jsp:include page="SPARQL_Query1.jsp"/>
     <br>
-    <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
-  </div>    
-  
+  </div>
+
+  <div style="margin: 20px 20px; background-color: rgb(255, 255, 255); box-shadow: 0px 0px 5px #b4b3b3; border-radius: 5px;">
+    <div style="margin: 20px 20px;">
+      <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
+    </div>
+  </div>
 </blockquote>
 </html>
 

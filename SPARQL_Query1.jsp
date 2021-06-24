@@ -5,9 +5,11 @@
 
       SELECT ?RiceEngName ?RiceThaiName ?Image
         WHERE { 
-              ?ThaiRice ex:isRiceEngName ?RiceEngName .
-              ?ThaiRice ex:isRiceThaiName ?RiceThaiName .
-              ?ThaiRice ex:hasImage ?Image .
+          ?ThaiRice ex:isRiceEngName ?RiceEngName .
+          ?ThaiRice ex:isRiceThaiName ?RiceThaiName .
+          ?ThaiRice ex:hasImage ?Image .
+          ?ThaiRice ex:beType ?tr .
+          ?tr ex:isRiceTypeThaiName ?RiceType .
         }
     </textarea>
   <br><br>

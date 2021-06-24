@@ -2317,7 +2317,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beSeed rdf:resource="http://www.myontology.com/rice#RiceStrawFrecklesBrown"/>
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
-        <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD21/103-1.&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
+        <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD21/103-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
         <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">700</rice:hasProduct>
         <rice:isRiceEngName>RD21</rice:isRiceEngName>
         <rice:isRiceThaiName>กข21</rice:isRiceThaiName>

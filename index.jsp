@@ -14,20 +14,22 @@
 
   <div class="container">
       <div class="row">
+
           <div class="col-md-12">
             <jsp:include page="jsp/search.jsp"/>
           </div>
+          <div class="col-md-12">
+              <div class="table-responsive">
+                      <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
+              </div>
+          </div>
+
         </div>
       </div>
   </div>
 
+  <jsp:include page = "jsp/foot.jsp"/>
 
-
-  <div style="margin: 20px 20px; background-color: rgb(255, 255, 255); box-shadow: 0px 0px 5px #b4b3b3; border-radius: 5px;">
-    <div style="margin: 20px 20px;">
-      <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
-    </div>
-  </div>
 </body>
 </html>
 

@@ -61,7 +61,7 @@ public class mySparql extends TagSupport {
 				out.print("<br> This is a result: <br>");
 				List<String> list = results.getResultVars();
 				out.print("---------------------------<br>");
-				out.print("<table>");
+				out.print("<table class=\"table table-hover\">");
 				out.print("<tr>");
 				for (int i = 0; i < list.size(); i++){
 					out.print("<th>" + list.get(i) + "</th>");

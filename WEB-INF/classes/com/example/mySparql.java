@@ -58,9 +58,9 @@ public class mySparql extends TagSupport {
 
 				// out.println(ResultSetFormatter.asText(results));
 
-				out.print("<br> This is a result: <br>");
+				// out.print("<br> This is a result: <br>");
 				List<String> list = results.getResultVars();
-				out.print("---------------------------<br>");
+				// out.print("---------------------------<br>");
 				out.print("<table>");
 				out.print("<tr>");
 				for (int i = 0; i < list.size(); i++){

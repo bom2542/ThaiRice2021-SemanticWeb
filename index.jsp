@@ -20,7 +20,6 @@
           </div>
           <div class="col-md-12">
               <div class="table-responsive">
-                        55555555555555555
                       <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
               </div>
           </div>

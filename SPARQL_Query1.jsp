@@ -1,5 +1,5 @@
 <form action="index.jsp" method="POST">
-    <input name="qstring" required value="${param.qstring}" rows="10" cols="70">
+<%--    <input name="qstring" required value="${param.qstring}" rows="10" cols="70">--%>
     5555555555555
     <br><br>
     <input type="submit">

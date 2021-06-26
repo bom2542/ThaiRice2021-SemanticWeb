@@ -22,18 +22,7 @@ import com.hp.hpl.jena.util.FileManager;
 public class mySparql extends TagSupport {
 
 	private String qstring = "";
-	private String queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
-			"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
-			"\n" +
-			"      SELECT ?RiceEngName ?RiceThaiName ?Image\n" +
-			"        WHERE { \n" +
-			"          ?ThaiRice ex:isRiceEngName ?RiceEngName .\n" +
-			"          ?ThaiRice ex:isRiceThaiName ?RiceThaiName .\n" +
-			"          ?ThaiRice ex:hasImage ?Image .\n" +
-			"          ?ThaiRice ex:beType ?tr .\n" +
-			"          ?tr ex:isRiceTypeThaiName ?RiceType .\n" +
-			"        \n" +
-			"        }";
+	private String queryTemplat = "";
 
 	public void setQstring(String qstring) {
 		this.qstring = qstring;
@@ -55,7 +44,6 @@ public class mySparql extends TagSupport {
 						"          ?ThaiRice ex:beType ?tr .\n" +
 						"          ?tr ex:isRiceTypeThaiName ?RiceType .\n" +
 						"        \n" +
-						"          FILTER regex(?RiceEngName, " + qstring + ", \"i\")\n" +
 						"        }";
 
 

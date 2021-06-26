@@ -61,7 +61,7 @@ public class mySparql extends TagSupport {
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
 				Model model = FileManager.get().loadModel("thricerdf.owl");
-				Query query = QueryFactory.create(qstring);
+				Query query = QueryFactory.create(queryTemplat);
 				QueryExecution qexec = QueryExecutionFactory.create(query, model);
 
 				ResultSet results = qexec.execSelect();

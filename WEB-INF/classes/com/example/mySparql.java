@@ -53,12 +53,12 @@ public class mySparql extends TagSupport {
 
 				ResultSet results = qexec.execSelect();
 				if (results.getRowNumber() != 0) {
-					out.print(results.getResultVars() + "<br> This is a result: <br>");
+					out.print(results.getResultVars() + "<br> This is a result555555: <br>");
 				}
 
 				// out.println(ResultSetFormatter.asText(results));
 
-				// out.print("<br> This is a result: <br>");
+				out.print("<br> This is a result: <br>");
 				List<String> list = results.getResultVars();
 				// out.print("---------------------------<br>");
 				out.print("<table>");

@@ -27,7 +27,6 @@
 <body>
 <blockquote>
   <jsp:include page = "header.jsp"/>
-  
 
   <div style="margin: 20px 20px;">
     <h3>Input your SPARQL Query55555</h3>

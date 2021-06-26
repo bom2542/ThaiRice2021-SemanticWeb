@@ -45,7 +45,7 @@ public class mySparql extends TagSupport {
 						"          ?tr ex:isRiceTypeThaiName ?RiceType .\n" +
 						"          FILTER regex(?RiceEngName, \"" + qstring + "\", \"i\")\n" +
 						"        }";
-				
+
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
 				Model model = FileManager.get().loadModel("thricerdf.owl");
 				Query query = QueryFactory.create(queryTemplat);

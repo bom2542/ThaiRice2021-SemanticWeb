@@ -1,4 +1,4 @@
-<%-- JSP TAGS--%>
+<%-- JSP --%>
 <%@ taglib uri="WEB-INF/mytags.tld" prefix="m"%>
 <%@page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
 
@@ -20,7 +20,8 @@
           </div>
           <div class="col-md-12">
               <div class="table-responsive">
-                      <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
+                <!-- <div class="result"></div> -->
+                <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
               </div>
           </div>
 

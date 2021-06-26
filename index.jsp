@@ -1,5 +1,6 @@
 <%@ taglib uri="WEB-INF/mytags.tld" prefix="m"%>
 <%@page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +30,7 @@
   
 
   <div style="margin: 20px 20px;">
-    <h3>Input your SPARQL Query</h3>
+    <h3>Input your SPARQL Query55555</h3>
     <jsp:include page="SPARQL_Query1.jsp"/>
     <br>
   </div>

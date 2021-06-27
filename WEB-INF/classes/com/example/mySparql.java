@@ -36,15 +36,19 @@ public class mySparql extends TagSupport {
 				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 						"\n" +
-						"      SELECT ?RiceEngName ?RiceThaiName ?Image\n" +
+						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeTH ?RiceAreaTH\n" +
 						"        WHERE { \n" +
-						"          ?ThaiRice ex:isRiceEngName ?RiceEngName .\n" +
-						"          ?ThaiRice ex:isRiceThaiName ?RiceThaiName .\n" +
-						"          ?ThaiRice ex:hasImage ?Image .\n" +
-						"          ?ThaiRice ex:beType ?tr .\n" +
-						"          ?tr ex:isRiceTypeThaiName ?RiceType .\n" +
-						"          FILTER regex(?RiceEngName, \"" + qstring + "\", \"i\")\n" +
-						"        }";
+						"          ?TR ex:isRiceEngName ?RiceNameEN .\n" +
+						"          ?TR ex:isRiceThaiName ?RiceNameTH .\n" +
+						"          ?TR ex:hasProduct ?Products .\n" +
+						"          ?TR ex:hasImage ?ImageRice .\n" +
+						"          ?TR ex:beType ?TR2 .\n" +
+						"          ?TR2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
+						"          ?TR ex:beRegion ?TR3 .\n" +
+						"          ?TR3 ex:isRiceRegionThaiName ?RiceAreaTH .\n" +
+						"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
+						"        }" +
+						"          ORDER BY DESC(?Products) .\n";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
 				Model model = FileManager.get().loadModel("thricerdf.owl");
@@ -53,7 +57,7 @@ public class mySparql extends TagSupport {
 
 				ResultSet results = qexec.execSelect();
 				if (results.getRowNumber() != 0) {
-					out.print(results.getResultVars() + "<br> <center><b><h3>Data search not found !!!</h3></b></center> <br>");
+					out.print(results.getResultVars() + "<br> This is a result: <br>");
 				}
 
 				// out.println(ResultSetFormatter.asText(results));
@@ -62,7 +66,7 @@ public class mySparql extends TagSupport {
 				List<String> list = results.getResultVars();
 //				out.print("---------------------------<br>");
 				out.print("<table class=\"table table-hover\">");
-				out.print("<thead><tr>");
+				out.print("<thead class=\"justify-content-center\"><tr>");
 				for (int i = 0; i < list.size(); i++){
 					out.print("<th scope=\"col\">" + list.get(i) + "</th>");
 				}

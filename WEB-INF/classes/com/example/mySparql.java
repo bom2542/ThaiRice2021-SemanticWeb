@@ -47,7 +47,7 @@ public class mySparql extends TagSupport {
 						"          ?TR ex:beRegion ?TR3 .\n" +
 						"          ?TR3 ex:isRiceRegionThaiName ?RiceAreaTH .\n" +
 						"          FILTER regex(?RiceNameEN, \"" + qstring + "\", \"i\")\n" +
-						"        }" +
+						"        } \n" +
 						"          ORDER BY DESC(?Products) .\n";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());

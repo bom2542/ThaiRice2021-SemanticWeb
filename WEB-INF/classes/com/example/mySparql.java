@@ -46,7 +46,7 @@ public class mySparql extends TagSupport {
 						"          ?TR2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
 						"          ?TR ex:beRegion ?TR3 .\n" +
 						"          ?TR3 ex:isRiceRegionThaiName ?RiceAreaTH .\n" +
-						"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
+						"          FILTER regex(?RiceNameEN, \"" + qstring + "\", \"i\")\n" +
 						"        }" +
 						"          ORDER BY DESC(?Products) .\n";
 

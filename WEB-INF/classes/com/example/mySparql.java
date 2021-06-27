@@ -36,11 +36,12 @@ public class mySparql extends TagSupport {
 				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 						"\n" +
-						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH\n" +
+						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products \n" +
 						"        WHERE { \n" +
 						"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
 						"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
 						"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
+						"          ?ThaiRice ex:hasProduct ?Products .\n" +
 						"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
 						"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceType .\n" +
 						"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
@@ -64,7 +65,16 @@ public class mySparql extends TagSupport {
 				out.print("<table class=\"table table-hover\">");
 				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
-					out.print("<th scope=\"col\" class=\"text-center\">" + list.get(i) + "</th>");
+					if(list.get(i) == "ImageRice")
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Photos" + "</th>");
+					else if(list.get(i) == "RiceNameEN")
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Name thai rice" + "</th>");
+					else if(list.get(i) == "RiceNameTH")
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Name eng rice" + "</th>");
+					else if(list.get(i) == "Products")
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Products(KG : Farm/Year)" + "</th>");
+					else
+						out.print("<th scope=\"col\" class=\"text-center\">" + list.get(i) + "</th>");
 				}
 				out.print("</tr></thead>");
 

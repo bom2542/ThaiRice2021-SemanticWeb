@@ -96,7 +96,7 @@ public class mySparql extends TagSupport {
 							"          ?ThaiRice3 ex:isPhysicalThaiName ?Seed .\n" +
 							"          ?ThaiRice ex:beLeaf ?ThaiRice4 .\n" +
 							"          ?ThaiRice4 ex:isPhysicalThaiName ?Stem .\n" +
-							"          FILTER regex(?RiceAreaEN, \"^" + qstring + "\", \"i\")\n" +
+							"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
 							"        }";
 				}else{
 					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +

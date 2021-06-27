@@ -44,8 +44,7 @@ public class mySparql extends TagSupport {
 						"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
 						"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceType .\n" +
 						"          FILTER regex(?RiceEngName, \"^" + qstring + "\", \"i\")\n" +
-						"        }\n" +
-						"			ORDER BY (?RiceNameEN)";
+						"        }";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
 				Model model = FileManager.get().loadModel("thricerdf.owl");
@@ -65,7 +64,7 @@ public class mySparql extends TagSupport {
 				out.print("<table class=\"table table-hover\">");
 				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
-					out.print("<th scope=\"col\" align=\"center\">" + list.get(i) + "</th>");
+					out.print("<th scope=\"col\">" + list.get(i) + "</th>");
 				}
 				out.print("</tr></thead>");
 

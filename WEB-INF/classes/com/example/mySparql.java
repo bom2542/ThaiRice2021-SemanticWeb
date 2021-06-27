@@ -69,13 +69,13 @@ public class mySparql extends TagSupport {
 				out.print("</tr></thead>");
 
 				while (results.hasNext()) {
-					out.print("<thead><tr>");
+					out.print("<tbody><tr>");
 					QuerySolution soln = results.nextSolution();
 					for (int i = 0; i < list.size(); i++){
 						Literal var1 = soln.getLiteral(list.get(i));
 						out.print("<td>" + var1 + "</td>");
 					}
-					out.print("</tr></thead>");
+					out.print("</tr></tbody>");
 				}
 				out.print("</table>");
 			}

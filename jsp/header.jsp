@@ -74,4 +74,8 @@
         display: none;
     }
 
+    td.img {
+        align-content: center;
+    }
+
 </style>

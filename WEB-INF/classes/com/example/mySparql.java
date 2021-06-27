@@ -62,20 +62,20 @@ public class mySparql extends TagSupport {
 				List<String> list = results.getResultVars();
 //				out.print("---------------------------<br>");
 				out.print("<table class=\"table table-hover\">");
-				out.print("<tr>");
+				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
-					out.print("<th>" + list.get(i) + "</th>");
+					out.print("<th scope=\"col\">" + list.get(i) + "</th>");
 				}
-				out.print("</tr>");
+				out.print("</tr></thead>");
 
 				while (results.hasNext()) {
-					out.print("<tr>");
+					out.print("<thead><tr>");
 					QuerySolution soln = results.nextSolution();
 					for (int i = 0; i < list.size(); i++){
 						Literal var1 = soln.getLiteral(list.get(i));
 						out.print("<td>" + var1 + "</td>");
 					}
-					out.print("</tr>");
+					out.print("</tr></thead>");
 				}
 				out.print("</table>");
 			}

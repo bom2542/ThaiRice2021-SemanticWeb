@@ -94,7 +94,7 @@ public class mySparql extends TagSupport {
 							"          ?ThaiRice2 ex:isPhysicalThaiName ?Leaf .\n" +
 							"          ?ThaiRice ex:beSeed ?ThaiRice3 .\n" +
 							"          ?ThaiRice3 ex:isPhysicalThaiName ?Seed .\n" +
-							"          ?ThaiRice ex:beLeaf ?ThaiRice4 .\n" +
+							"          ?ThaiRice ex:beStem ?ThaiRice4 .\n" +
 							"          ?ThaiRice4 ex:isPhysicalThaiName ?Stem .\n" +
 							"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
 							"        }";

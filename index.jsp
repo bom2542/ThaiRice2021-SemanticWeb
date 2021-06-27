@@ -8,7 +8,11 @@
 <head>
   <jsp:include page = "jsp/header.jsp"/>
 </head>
-<body>
+<body id="body-pd">
+
+    <div class="loader">
+        <img src="./jsp/img/loader.gif" />
+    </div>
 
   <jsp:include page = "jsp/banner.jsp"/>
 

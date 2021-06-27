@@ -6,6 +6,8 @@
     </a>
 </nav>
 
+<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
 <script>
     function validateForm() {
       let x = document.forms["Search"]["qstring"].value;
@@ -14,4 +16,23 @@
         return false;
       }
     }
+
+    window.addEventListener("load", function () {
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden"; // class "loader hidden"
+    });
+
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 40){
+                $('#topBtn').fadeIn();
+            } else{
+                $('#topBtn').fadeOut();
+            }
+        });
+
+        $("#topBtn").click(function(){
+            $('html ,body').animate({scrollTop : 0},800);
+        });
+    });
 </script>

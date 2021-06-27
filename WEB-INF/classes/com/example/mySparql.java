@@ -36,7 +36,7 @@ public class mySparql extends TagSupport {
 				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 						"\n" +
-						"      SELECT ?ImageRice ?RiceNameEN ?RiceNamrTH\n" +
+						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH\n" +
 						"        WHERE { \n" +
 						"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
 						"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
@@ -64,7 +64,7 @@ public class mySparql extends TagSupport {
 				out.print("<table class=\"table table-hover\">");
 				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
-					out.print("<th scope=\"col\">" + list.get(i) + "</th>");
+					out.print("<th scope=\"col\" align=\"center\">" + list.get(i) + "</th>");
 				}
 				out.print("</tr></thead>");
 

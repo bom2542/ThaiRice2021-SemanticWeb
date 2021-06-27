@@ -20,12 +20,12 @@
       <div class="row">
 
           <div class="col-md-12">
-              <div class="mt-5 mb-1">
-                  <b><i class="fas fa-filter"></i> Filter Search :</b>
-                  <a class="btn btn-info active ml-2" href="index.jsp" role="button">Thai Rice</a>
-                  <a class="btn btn-info" href="type.jsp" role="button">Type Rice</a>
-                  <a class="btn btn-info" href="#" role="button">Link</a>
-              </div>
+<%--              <div class="mt-5 mb-1">--%>
+<%--                  <b><i class="fas fa-filter"></i> Filter Search :</b>--%>
+<%--                  <a class="btn btn-info active ml-2" href="index.jsp" role="button">Thai Rice</a>--%>
+<%--                  <a class="btn btn-info" href="type.jsp" role="button">Type Rice</a>--%>
+<%--                  <a class="btn btn-info" href="#" role="button">Link</a>--%>
+<%--              </div>--%>
           </div>
           <div class="col-md-12">
             <jsp:include page="jsp/search.jsp"/>

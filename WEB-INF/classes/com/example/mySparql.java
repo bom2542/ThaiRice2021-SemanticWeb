@@ -53,15 +53,15 @@ public class mySparql extends TagSupport {
 
 				ResultSet results = qexec.execSelect();
 				if (results.getRowNumber() != 0) {
-					out.print(results.getResultVars() + "<br> This is a result: <br>");
+					out.print(results.getResultVars() + "<br> <center><b><h3>Data search not found !!!</h3></b></center> <br>");
 				}
 
 				// out.println(ResultSetFormatter.asText(results));
 
-				out.print("<br> This is a result: <br>");
+//				out.print("<br> This is a result: <br>");
 				List<String> list = results.getResultVars();
-				out.print("---------------------------<br>");
-				out.print("<table>");
+//				out.print("---------------------------<br>");
+				out.print("<table class=\"table table-hover\">");
 				out.print("<tr>");
 				for (int i = 0; i < list.size(); i++){
 					out.print("<th>" + list.get(i) + "</th>");

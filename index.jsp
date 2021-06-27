@@ -23,7 +23,7 @@
             <jsp:include page="jsp/search.jsp"/>
           </div>
           <div class="col-md-12">
-                  <p id="keyword"><b style='color: green;'>Advice keyword search : </b> Enter thai rice (english name) for search</p>
+                  <p id="keyword"><b style='color: green;'>Advice keyword search : </b> Enter thai rice (english name) for search, '*' in this all search</p>
           </div>
           <div class="col-md-12">
               <div class="table-responsive mt-2 mb-5">

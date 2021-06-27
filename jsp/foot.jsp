@@ -13,11 +13,11 @@
     function TypeRice() {
         var x = document.getElementById("mySelect").value;
         if(x === "0" || x === "3")
-            document.getElementById("keyword").innerHTML = "<b style='color: green;'>Advice keyword search : </b> Enter thai rice (english name) for search";
+            document.getElementById("keyword").innerHTML = "<b style='color: green;'>Advice keyword search : </b> Enter thai rice (english name) for search, '*' in this all search";
         else if(x === "1")
-            document.getElementById("keyword").innerHTML = "<b style='color: #e74c3c;'>Type rice keyword search!! : </b> Barley,  Fragrant, Japan, MixedPaddy, Paddy and Sticky";
+            document.getElementById("keyword").innerHTML = "<b style='color: #e74c3c;'>Type rice keyword search!! : </b> Barley,  Fragrant, Japan, MixedPaddy, Paddy and Sticky, '*' in this all search";
         else if(x === "2")
-            document.getElementById("keyword").innerHTML = "<b style='color: #e74c3c;'>Zone made keyword search!! : </b> All, Center, East, Lower east north, Lower north, Lower south, Upper east north, Upper north, Upper south, and West";
+            document.getElementById("keyword").innerHTML = "<b style='color: #e74c3c;'>Zone made keyword search!! : </b> All, Center, East, Lower east north, Lower north, Lower south, Upper east north, Upper north, Upper south, and West, '*' in this all search";
         else
             document.getElementById("keyword").innerHTML = "You selected: 1";
     }

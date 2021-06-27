@@ -681,8 +681,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/17
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beEcosystem rdf:resource="http://www.myontology.com/rice#Deep"/>
         <rice:beRespond rdf:resource="http://www.myontology.com/rice#NotRespondLight"/>
-        <rice:isRiceTypeEngName>Deep rice not respond</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>พันธุ์ข้าวน้ำลึกไม่ไวต่อช่วงแสง</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Deep rice not respond</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>พันธุ์ข้าวน้ำลึกไม่ไวต่อช่วงแสง</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -693,8 +693,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/17
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beEcosystem rdf:resource="http://www.myontology.com/rice#Deep"/>
         <rice:beRespond rdf:resource="http://www.myontology.com/rice#RespondLight"/>
-        <rice:isRiceTypeEngName>Deep rice respond</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>พันธุ์ข้าวน้ำลึกไวต่อช่วงแสง</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Deep rice respond</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>พันธุ์ข้าวน้ำลึกไวต่อช่วงแสง</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -736,8 +736,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/17
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beEcosystem rdf:resource="http://www.myontology.com/rice#Farm"/>
         <rice:beRespond rdf:resource="http://www.myontology.com/rice#NotRespondLight"/>
-        <rice:isRiceTypeEngName>Farm rice not respond</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>พันธุ์ข้าวไร่ไม่ไวต่อช่วงแสง</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Farm rice not respond</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>พันธุ์ข้าวไร่ไม่ไวต่อช่วงแสง</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -748,8 +748,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/17
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beEcosystem rdf:resource="http://www.myontology.com/rice#Farm"/>
         <rice:beRespond rdf:resource="http://www.myontology.com/rice#RespondLight"/>
-        <rice:isRiceTypeEngName>Farm rice respond</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>พันธุ์ข้าวไร่ไวต่อช่วงแสง</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Farm rice respond</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>พันธุ์ข้าวไร่ไวต่อช่วงแสง</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -759,8 +759,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/17
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#FieldBarley">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beEcosystem rdf:resource="http://www.myontology.com/rice#GardenField"/>
-        <rice:isRiceTypeEngName>Field rice barley</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>ข้าวบาร์เลย์</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Field rice barley</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>ข้าวบาร์เลย์</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -770,8 +770,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/17
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#FieldJapan">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beEcosystem rdf:resource="http://www.myontology.com/rice#GardenField"/>
-        <rice:isRiceTypeEngName>Field rice japan</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>ข้าวญี่ปุ่น</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Field rice japan</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>ข้าวญี่ปุ่น</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -1483,8 +1483,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
 
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#LowerNorth">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Region"/>
-        <rice:isRiceRegionEngName>Upper north region</rice:isRiceRegionEngName>
-        <rice:isRiceRegionThaiName>ภาคเหนือตอนบน</rice:isRiceRegionThaiName>
+        <rice:isRiceRegionEngName>Lower north region</rice:isRiceRegionEngName>
+        <rice:isRiceRegionThaiName>ภาคเหนือตอนล่างรวมถึงภาคกลางตอนบนด้วย</rice:isRiceRegionThaiName>
     </owl:NamedIndividual>
     
 
@@ -1493,8 +1493,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
 
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#LowerSouth">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Region"/>
-        <rice:isRiceRegionEngName>Upper south region</rice:isRiceRegionEngName>
-        <rice:isRiceRegionThaiName>ภาคใต้ตอนบน</rice:isRiceRegionThaiName>
+        <rice:isRiceRegionEngName>Lower south region</rice:isRiceRegionEngName>
+        <rice:isRiceRegionThaiName>ภาคใต้ตอนล่าง</rice:isRiceRegionThaiName>
     </owl:NamedIndividual>
     
 
@@ -1523,8 +1523,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
 
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#MixedRice">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
-        <rice:isRiceTypeEngName>Mixed rice</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>ข้าวลูกผสม</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Mixed rice</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>ข้าวลูกผสม</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -2733,8 +2733,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#RedJasmineNotRespond">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beRespond rdf:resource="http://www.myontology.com/rice#NotRespondLight"/>
-        <rice:isRiceTypeEngName>Red jasmine rice not respond</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>พันธุ์ข้าวแดงไม่ไวต่อช่วงแสง</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Red jasmine rice not respond</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>พันธุ์ข้าวแดงไม่ไวต่อช่วงแสง</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -2744,8 +2744,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#RedJasmineRespond">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beRespond rdf:resource="http://www.myontology.com/rice#RespondLight"/>
-        <rice:isRiceTypeEngName>Red jasmine rice respond</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>ข้าวแดงไวต่อช่วงแสง</rice:isRiceTypeThaiName>
+        <rice:isRiceAttributeEngName>Red jasmine rice respond</rice:isRiceAttributeEngName>
+        <rice:isRiceAttributeThaiName>ข้าวแดงไวต่อช่วงแสง</rice:isRiceAttributeThaiName>
     </owl:NamedIndividual>
     
 
@@ -3146,8 +3146,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rdf:type rdf:resource="http://www.myontology.com/rice#Attributes"/>
         <rice:beEcosystem rdf:resource="http://www.myontology.com/rice#Water"/>
         <rice:beRespond rdf:resource="http://www.myontology.com/rice#RespondLight"/>
-        <rice:isRiceTypeEngName>Upland rice respond</rice:isRiceTypeEngName>
-        <rice:isRiceTypeThaiName>พันธุ์ข้าวขึ้นน้ำไวต่อช่วงแสง</rice:isRiceTypeThaiName>
+        <rice:isRiceEnvironmentEngName>Upland rice respond</rice:isRiceEnvironmentEngName>
+        <rice:isRiceEnvironmentThaiName>พันธุ์ข้าวขึ้นน้ำไวต่อช่วงแสง</rice:isRiceEnvironmentThaiName>
     </owl:NamedIndividual>
     
 
@@ -3166,8 +3166,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
 
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#UpperNorth">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Region"/>
-        <rice:isRiceRegionEngName>Lower north region</rice:isRiceRegionEngName>
-        <rice:isRiceRegionThaiName>ภาคเหนือตอนล่างรวมถึงภาคกลางตอนบนด้วย</rice:isRiceRegionThaiName>
+        <rice:isRiceRegionEngName>Upper north region</rice:isRiceRegionEngName>
+        <rice:isRiceRegionThaiName>ภาคเหนือตอนบน</rice:isRiceRegionThaiName>
     </owl:NamedIndividual>
     
 
@@ -3176,8 +3176,8 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
 
     <owl:NamedIndividual rdf:about="http://www.myontology.com/rice#UpperSouth">
         <rdf:type rdf:resource="http://www.myontology.com/rice#Region"/>
-        <rice:isRiceRegionEngName>Lower south region</rice:isRiceRegionEngName>
-        <rice:isRiceRegionThaiName>ภาคใต้ตอนล่าง</rice:isRiceRegionThaiName>
+        <rice:isRiceRegionEngName>Upper south region</rice:isRiceRegionEngName>
+        <rice:isRiceRegionThaiName>ภาคใต้ตอนบน</rice:isRiceRegionThaiName>
     </owl:NamedIndividual>
     
 

@@ -65,13 +65,13 @@ public class mySparql extends TagSupport {
 				out.print("<table class=\"table table-hover\">");
 				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
-					if(list.get(i) == "ImageRice")
+					if(list.get(i).equals("ImageRice"))
 						out.print("<th scope=\"col\" class=\"text-center\">" + "Photos" + "</th>");
-					else if(list.get(i) == "RiceNameEN")
+					else if(list.get(i).equals("RiceNameEN"))
 						out.print("<th scope=\"col\" class=\"text-center\">" + "Name thai rice" + "</th>");
-					else if(list.get(i) == "RiceNameTH")
+					else if(list.get(i).equals("RiceNameTH"))
 						out.print("<th scope=\"col\" class=\"text-center\">" + "Name eng rice" + "</th>");
-					else if(list.get(i) == "Products")
+					else if(list.get(i).equals("Products"))
 						out.print("<th scope=\"col\" class=\"text-center\">" + "Products(KG : Farm/Year)" + "</th>");
 					else
 						out.print("<th scope=\"col\" class=\"text-center\">" + list.get(i) + "</th>");

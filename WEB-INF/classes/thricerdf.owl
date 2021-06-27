@@ -2677,7 +2677,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s13/rice_11.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
         <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">585</rice:hasProduct>
         <rice:isRiceEngName>RD8</rice:isRiceEngName>
-        <rice:isRiceThaiName>กข6</rice:isRiceThaiName>
+        <rice:isRiceThaiName>กข8</rice:isRiceThaiName>
     </owl:NamedIndividual>
     
 

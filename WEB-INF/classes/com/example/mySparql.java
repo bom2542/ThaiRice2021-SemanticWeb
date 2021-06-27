@@ -36,14 +36,14 @@ public class mySparql extends TagSupport {
 				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 						"\n" +
-						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH\n" +
+						"      SELECT ?ImageRice ?RiceNameEN ?RiceNamrTH\n" +
 						"        WHERE { \n" +
-						"          ?ThaiRice ex:isRiceEngName ?RiceEngName .\n" +
-						"          ?ThaiRice ex:isRiceThaiName ?RiceThaiName .\n" +
+						"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
+						"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
 						"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
 						"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
 						"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceType .\n" +
-						"          FILTER regex(?RiceEngName, \"^" + qstring + "\", \"i\")\n" +
+						"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
 						"        }";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());

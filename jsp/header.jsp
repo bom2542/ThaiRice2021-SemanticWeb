@@ -74,8 +74,4 @@
         display: none;
     }
 
-    table.tbody.tr.td {
-        align-items: center;
-    }
-
 </style>

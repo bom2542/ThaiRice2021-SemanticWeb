@@ -73,7 +73,7 @@ public class mySparql extends TagSupport {
 					QuerySolution soln = results.nextSolution();
 					for (int i = 0; i < list.size(); i++){
 						Literal var1 = soln.getLiteral(list.get(i));
-						out.print("<td>" + var1 + "</td>");
+						out.print("<td class=\"text-center\">" + var1 + "</td>");
 					}
 					out.print("</tr></tbody>");
 				}

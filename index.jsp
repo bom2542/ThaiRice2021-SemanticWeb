@@ -24,7 +24,7 @@
           </div>
           <div class="col-md-12">
               <div class="table-responsive mt-4">
-                <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
+                <m:sparqllab qstring="${param.qstring}" fill="${param.fill}"></m:sparqllab>
               </div>
           </div>
 

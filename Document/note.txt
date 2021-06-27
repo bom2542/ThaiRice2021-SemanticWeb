@@ -27,3 +27,23 @@ WHERE {
 	?TR3 ex:isRiceRegionThaiName ?RiceAreaTH .
 
 }
+
+
+PREFIX ex: <http://www.myontology.com/rice#>
+SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeEN ?RiceTypeTH ?RiceAreaEN ?RiceAreaTH
+WHERE { {
+	?TR ex:isRiceEngName ?RiceNameEN .
+	?TR ex:isRiceThaiName ?RiceNameTH .
+	?TR ex:hasProduct ?Products .
+	?TR ex:hasImage ?ImageRice .
+	?TR ex:beType ?TR2 .
+	?TR ex:beRegion ?TR3 .
+	?TR3 ex:isRiceRegionEngName ?RiceAreaEN .
+	?TR3 ex:isRiceRegionThaiName ?RiceAreaTH .
+	FILTER regex(?RiceNameEN, "", "i")
+	}UNION{
+	?TR2 ex:isRiceTypeEngName ?RiceTypeEN .
+	?TR2 ex:isRiceTypeThaiName ?RiceTypeTH .
+	FILTER regex(?RiceTypeEN, "^S", "i")
+}}
+ORDER BY DESC(?Products)

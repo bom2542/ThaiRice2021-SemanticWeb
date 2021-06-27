@@ -21,11 +21,12 @@ import com.hp.hpl.jena.util.FileManager;
 
 public class mySparql extends TagSupport {
 
-	private String qstring = "";
-	private String queryTemplat = "";
-
+	private String qstring = "", fill = "", queryTemplat = "";
 	public void setQstring(String qstring) {
 		this.qstring = qstring;
+	}
+	public void setFill(String fill) {
+		this.fill = fill;
 	}
 
 	public int doStartTag() throws JspException {
@@ -33,21 +34,54 @@ public class mySparql extends TagSupport {
 		JspWriter out = pageContext.getOut();
 		try {
 			if (!qstring.equals("")) {
-				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
-						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
-						"\n" +
-						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeEN ?RiceTypeTH \n" +
-						"        WHERE { \n" +
-						"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
-						"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
-						"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
-						"          ?ThaiRice ex:hasProduct ?Products .\n" +
-						"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
-						"          ?ThaiRice2 ex:isRiceTypeEngName ?RiceTypeEN .\n" +
-						"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
-						"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
-						"          FILTER regex(?RiceTypeEN, \"^" + qstring + "\", \"i\")\n" +
-						"        }";
+
+				if(fill.equals("0")){
+					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+							"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
+							"\n" +
+							"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeEN ?RiceTypeTH \n" +
+							"        WHERE { \n" +
+							"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
+							"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
+							"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
+							"          ?ThaiRice ex:hasProduct ?Products .\n" +
+							"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
+							"          ?ThaiRice2 ex:isRiceTypeEngName ?RiceTypeEN .\n" +
+							"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
+							"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
+							"        }";
+				}else if(fill.equals("1")){
+					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+							"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
+							"\n" +
+							"      SELECT ?RiceTypeEN ?RiceTypeTH ?RiceNameTH ?ImageRice \n" +
+							"        WHERE { \n" +
+							"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
+							"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
+							"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
+							"          ?ThaiRice ex:hasProduct ?Products .\n" +
+							"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
+							"          ?ThaiRice2 ex:isRiceTypeEngName ?RiceTypeEN .\n" +
+							"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
+							"          FILTER regex(?RiceTypeEN, \"^" + qstring + "\", \"i\")\n" +
+							"        }";
+				}else{
+					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+							"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
+							"\n" +
+							"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeEN ?RiceTypeTH \n" +
+							"        WHERE { \n" +
+							"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
+							"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
+							"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
+							"          ?ThaiRice ex:hasProduct ?Products .\n" +
+							"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
+							"          ?ThaiRice2 ex:isRiceTypeEngName ?RiceTypeEN .\n" +
+							"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
+							"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
+							"        }";
+				}
+
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
 				Model model = FileManager.get().loadModel("thricerdf.owl");

@@ -65,6 +65,39 @@ public class mySparql extends TagSupport {
 							"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
 							"          FILTER regex(?RiceTypeEN, \"^" + qstring + "\", \"i\")\n" +
 							"        }";
+				}else if(fill.equals("2")){
+					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+							"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
+							"\n" +
+							"      SELECT ?RiceAreaEN ?RiceAreaTH ?RiceNameTH ?ImageRice \n" +
+							"        WHERE { \n" +
+							"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
+							"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
+							"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
+							"          ?ThaiRice ex:hasProduct ?Products .\n" +
+							"          ?ThaiRice ex:beRegion ?ThaiRice2 .\n" +
+							"          ?ThaiRice2 ex:isRiceRegionEngName ?RiceAreaEN .\n" +
+							"          ?ThaiRice2 ex:isRiceRegionThaiName ?RiceAreaTH .\n" +
+							"          FILTER regex(?RiceAreaEN, \"^" + qstring + "\", \"i\")\n" +
+							"        }";
+				}else if(fill.equals("3")){
+					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+							"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
+							"\n" +
+							"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Leaf ?Seed ?Stem \n" +
+							"        WHERE { \n" +
+							"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
+							"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
+							"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
+							"          ?ThaiRice ex:hasProduct ?Products .\n" +
+							"          ?ThaiRice ex:beLeaf ?ThaiRice2 .\n" +
+							"          ?ThaiRice2 ex:isPhysicalThaiName ?Leaf .\n" +
+							"          ?ThaiRice ex:beSeed ?ThaiRice3 .\n" +
+							"          ?ThaiRice3 ex:isPhysicalThaiName ?Seed .\n" +
+							"          ?ThaiRice ex:beLeaf ?ThaiRice4 .\n" +
+							"          ?ThaiRice4 ex:isPhysicalThaiName ?Stem .\n" +
+							"          FILTER regex(?RiceAreaEN, \"^" + qstring + "\", \"i\")\n" +
+							"        }";
 				}else{
 					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 							"      PREFIX ex: <http://www.myontology.com/rice#>\n" +

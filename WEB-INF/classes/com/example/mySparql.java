@@ -36,15 +36,17 @@ public class mySparql extends TagSupport {
 				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 						"\n" +
-						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products \n" +
+						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeEN ?RiceTypeTH \n" +
 						"        WHERE { \n" +
 						"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
 						"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +
 						"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
 						"          ?ThaiRice ex:hasProduct ?Products .\n" +
 						"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
-						"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceType .\n" +
+						"          ?ThaiRice2 ex:isRiceTypeEngName ?RiceTypeEN .\n" +
+						"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
 						"          FILTER regex(?RiceNameEN, \"^" + qstring + "\", \"i\")\n" +
+						"          FILTER regex(?RiceTypeEN, \"^" + qstring + "\", \"i\")\n" +
 						"        }";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
@@ -57,22 +59,22 @@ public class mySparql extends TagSupport {
 					out.print(results.getResultVars() + "<br> This is a result: <br>");
 				}
 
-				// out.println(ResultSetFormatter.asText(results));
-
-//				out.print("<br> This is a result: <br>");
 				List<String> list = results.getResultVars();
-//				out.print("---------------------------<br>");
 				out.print("<table class=\"table table-hover\">");
 				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
 					if(list.get(i).equals("ImageRice"))
-						out.print("<th scope=\"col\" class=\"text-center\">" + "Photos" + "</th>");
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Rice photos" + "</th>");
 					else if(list.get(i).equals("RiceNameEN"))
-						out.print("<th scope=\"col\" class=\"text-center\">" + "Name thai rice" + "</th>");
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Eng rice name" + "</th>");
 					else if(list.get(i).equals("RiceNameTH"))
-						out.print("<th scope=\"col\" class=\"text-center\">" + "Name eng rice" + "</th>");
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Thai rice name" + "</th>");
 					else if(list.get(i).equals("Products"))
-						out.print("<th scope=\"col\" class=\"text-center\">" + "Products(KG : Farm/Year)" + "</th>");
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Products(kg-Farm/Year)" + "</th>");
+					else if(list.get(i).equals("RiceTypeEN"))
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Eng rice type" + "</th>");
+					else if(list.get(i).equals("RiceTypeTH"))
+						out.print("<th scope=\"col\" class=\"text-center\">" + "Thai rice type" + "</th>");
 					else
 						out.print("<th scope=\"col\" class=\"text-center\">" + list.get(i) + "</th>");
 				}

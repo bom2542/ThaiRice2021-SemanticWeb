@@ -43,7 +43,7 @@ public class mySparql extends TagSupport {
 						"          ?ThaiRice ex:hasImage ?Image .\n" +
 						"          ?ThaiRice ex:beType ?tr .\n" +
 						"          ?tr ex:isRiceTypeThaiName ?RiceType .\n" +
-						"          FILTER regex(?RiceEngName, \"" + qstring + "\", \"i\")\n" +
+						"          FILTER regex(?RiceEngName, \"^" + qstring + "\", \"i\")\n" +
 						"        }";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());

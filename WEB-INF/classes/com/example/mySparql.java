@@ -36,15 +36,16 @@ public class mySparql extends TagSupport {
 				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 						"\n" +
-						"      SELECT ?Image ?RiceEngName ?RiceThaiName\n" +
+						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH\n" +
 						"        WHERE { \n" +
 						"          ?ThaiRice ex:isRiceEngName ?RiceEngName .\n" +
 						"          ?ThaiRice ex:isRiceThaiName ?RiceThaiName .\n" +
-						"          ?ThaiRice ex:hasImage ?Image .\n" +
-						"          ?ThaiRice ex:beType ?tr .\n" +
-						"          ?tr ex:isRiceTypeThaiName ?RiceType .\n" +
+						"          ?ThaiRice ex:hasImage ?ImageRice .\n" +
+						"          ?ThaiRice ex:beType ?ThaiRice2 .\n" +
+						"          ?ThaiRice2 ex:isRiceTypeThaiName ?RiceType .\n" +
 						"          FILTER regex(?RiceEngName, \"^" + qstring + "\", \"i\")\n" +
-						"        }";
+						"        }\n" +
+						"			ORDER BY (?RiceNameEN)";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
 				Model model = FileManager.get().loadModel("thricerdf.owl");
@@ -62,9 +63,9 @@ public class mySparql extends TagSupport {
 				List<String> list = results.getResultVars();
 //				out.print("---------------------------<br>");
 				out.print("<table class=\"table table-hover\">");
-				out.print("<thead class=\"justify-content-center\"><tr>");
+				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
-					out.print("<th scope=\"col\">" + list.get(i) + "</th>");
+					out.print("<th scope=\"col\" align=\"center\">" + list.get(i) + "</th>");
 				}
 				out.print("</tr></thead>");
 

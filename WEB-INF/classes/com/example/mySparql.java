@@ -64,7 +64,7 @@ public class mySparql extends TagSupport {
 				out.print("<table class=\"table table-hover\">");
 				out.print("<thead><tr>");
 				for (int i = 0; i < list.size(); i++){
-					out.print("<th scope=\"col\" class=\"center\">" + list.get(i) + "</th>");
+					out.print("<th scope=\"col\" class=\"text-center\">" + list.get(i) + "</th>");
 				}
 				out.print("</tr></thead>");
 

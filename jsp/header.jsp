@@ -75,9 +75,7 @@
     }
 
     table.tbody.tr.td {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        align-items: center;
     }
 
 </style>

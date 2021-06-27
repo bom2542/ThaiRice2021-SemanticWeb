@@ -36,19 +36,15 @@ public class mySparql extends TagSupport {
 				queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 						"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 						"\n" +
-						"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeTH ?RiceAreaTH\n" +
+						"      SELECT ?Image ?RiceEngName ?RiceThaiName\n" +
 						"        WHERE { \n" +
-						"          ?TR ex:isRiceEngName ?RiceNameEN .\n" +
-						"          ?TR ex:isRiceThaiName ?RiceNameTH .\n" +
-						"          ?TR ex:hasProduct ?Products .\n" +
-						"          ?TR ex:hasImage ?ImageRice .\n" +
-						"          ?TR ex:beType ?TR2 .\n" +
-						"          ?TR2 ex:isRiceTypeThaiName ?RiceTypeTH .\n" +
-						"          ?TR ex:beRegion ?TR3 .\n" +
-						"          ?TR3 ex:isRiceRegionThaiName ?RiceAreaTH .\n" +
-						"          FILTER regex(?RiceNameEN, \"" + qstring + "\", \"i\")\n" +
-						"        } \n" +
-						"          ORDER BY DESC(?Products) .\n";
+						"          ?ThaiRice ex:isRiceEngName ?RiceEngName .\n" +
+						"          ?ThaiRice ex:isRiceThaiName ?RiceThaiName .\n" +
+						"          ?ThaiRice ex:hasImage ?Image .\n" +
+						"          ?ThaiRice ex:beType ?tr .\n" +
+						"          ?tr ex:isRiceTypeThaiName ?RiceType .\n" +
+						"          FILTER regex(?RiceEngName, \"" + qstring + "\", \"i\")\n" +
+						"        }";
 
 				FileManager.get().addLocatorClassLoader(mySparql.class.getClassLoader());
 				Model model = FileManager.get().loadModel("thricerdf.owl");

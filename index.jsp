@@ -23,7 +23,7 @@
             <jsp:include page="jsp/search.jsp"/>
           </div>
           <div class="col-md-12">
-              <div class="table-responsive">
+              <div class="table-responsive mt-4">
                 <!-- <div class="result"></div> -->
                 <m:sparqllab qstring="${param.qstring}"></m:sparqllab>
               </div>

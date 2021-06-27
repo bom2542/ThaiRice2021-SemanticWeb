@@ -449,7 +449,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot; http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Ayutthaya_1/Ayutthaya_1_01.jpg &quot; style=&quot;width: 200px; height: 200px;&quot;  style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">546</rice:hasProduct>
+        <rice:hasProduct>546</rice:hasProduct>
         <rice:isRiceEngName>Ayutthaya1</rice:isRiceEngName>
         <rice:isRiceThaiName>อยุธยา 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -467,7 +467,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Bang_Taen/Bang_Taen_01.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">705</rice:hasProduct>
+        <rice:hasProduct>705</rice:hasProduct>
         <rice:isRiceEngName>BahngTaen</rice:isRiceEngName>
         <rice:isRiceThaiName>บางแตน</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -525,7 +525,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#MixedPaddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/CP304/CP304_1.JPG&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">938</rice:hasProduct>
+        <rice:hasProduct>938</rice:hasProduct>
         <rice:isRiceEngName>CP304</rice:isRiceEngName>
         <rice:isRiceThaiName>ซีพี 304</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -553,7 +553,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Chai_Nat_1/113-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">740</rice:hasProduct>
+        <rice:hasProduct>740</rice:hasProduct>
         <rice:isRiceEngName>ChaiNat1</rice:isRiceEngName>
         <rice:isRiceThaiName>ชัยนาท 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -571,7 +571,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Chai_Nat_2/2_03.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">657</rice:hasProduct>
+        <rice:hasProduct>657</rice:hasProduct>
         <rice:isRiceEngName>ChaiNat2</rice:isRiceEngName>
         <rice:isRiceThaiName>ชัยนาท 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -590,7 +590,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s114/Chiang%20Phatthalung_02.JPG&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">470</rice:hasProduct>
+        <rice:hasProduct>470</rice:hasProduct>
         <rice:isRiceEngName>ChiangPhatthalung</rice:isRiceEngName>
         <rice:isRiceThaiName>เฉี้ยงพัทลุง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -608,7 +608,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Cho%20Lung97/1.png&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">564</rice:hasProduct>
+        <rice:hasProduct>564</rice:hasProduct>
         <rice:isRiceEngName>Chorlung97</rice:isRiceEngName>
         <rice:isRiceThaiName>ช่อลุง 97</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -627,7 +627,7 @@
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s115/rice_44.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">546</rice:hasProduct>
+        <rice:hasProduct>546</rice:hasProduct>
         <rice:isRiceEngName>ChumPhae60</rice:isRiceEngName>
         <rice:isRiceThaiName>ชุมแพ 60</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -657,7 +657,7 @@
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;
 http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/173_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">250</rice:hasProduct>
+        <rice:hasProduct>250</rice:hasProduct>
         <rice:isRiceEngName>DawkPaYawm</rice:isRiceEngName>
         <rice:isRiceThaiName>ดอกพะยอม</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -833,7 +833,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Dawk_Pa-yawm/17
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;
 http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">660</rice:hasProduct>
+        <rice:hasProduct>660</rice:hasProduct>
         <rice:isRiceEngName>GaenJan</rice:isRiceEngName>
         <rice:isRiceThaiName>แก่นจันทร์</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -852,7 +852,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s18/rice_23.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">569</rice:hasProduct>
+        <rice:hasProduct>569</rice:hasProduct>
         <rice:isRiceEngName>GamPai15</rice:isRiceEngName>
         <rice:isRiceThaiName>กำผาย 15</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -892,7 +892,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Goo_Meuang_Luang/165_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">240</rice:hasProduct>
+        <rice:hasProduct>240</rice:hasProduct>
         <rice:isRiceEngName>GooMeuangLuang</rice:isRiceEngName>
         <rice:isRiceThaiName>กู้เมืองหลวง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -911,7 +911,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s19/rice_25.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">420</rice:hasProduct>
+        <rice:hasProduct>420</rice:hasProduct>
         <rice:isRiceEngName>GowRuang88</rice:isRiceEngName>
         <rice:isRiceThaiName>เก้ารวง 88</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -932,7 +932,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s128/02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">506</rice:hasProduct>
+        <rice:hasProduct>506</rice:hasProduct>
         <rice:isRiceEngName>HahngYi71</rice:isRiceEngName>
         <rice:isRiceThaiName>หางยี 71</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -960,7 +960,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Hantra_60/157_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">425</rice:hasProduct>
+        <rice:hasProduct>425</rice:hasProduct>
         <rice:isRiceEngName>Hantra60</rice:isRiceEngName>
         <rice:isRiceThaiName>หันตรา 60</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -999,7 +999,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#MixedPaddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RDH1/RDH1_1.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1006</rice:hasProduct>
+        <rice:hasProduct>1006</rice:hasProduct>
         <rice:isRiceEngName>JN29PTT43155131R</rice:isRiceEngName>
         <rice:isRiceThaiName>กขผ 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1037,7 +1037,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/PTTC02019/01.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">812</rice:hasProduct>
+        <rice:hasProduct>812</rice:hasProduct>
         <rice:isRiceEngName>JekChoei1</rice:isRiceEngName>
         <rice:isRiceThaiName>เจ๊กเชย 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1056,7 +1056,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Jow_Haw/169_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">210</rice:hasProduct>
+        <rice:hasProduct>210</rice:hasProduct>
         <rice:isRiceEngName>JowHaw</rice:isRiceEngName>
         <rice:isRiceThaiName>เจ้าฮ่อ</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1074,7 +1074,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Jhao_Khao_Chiangmai/Jhao%20Khao%20Chiangmai2.jpg&quot;  style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">350</rice:hasProduct>
+        <rice:hasProduct>350</rice:hasProduct>
         <rice:isRiceEngName>JowKhaoChiangmai</rice:isRiceEngName>
         <rice:isRiceThaiName>เจ้าขาวเชียงใหม่</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1092,7 +1092,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Jow_Lisaw_San-pah-tawng/Jow_Lisaw_San_pah_tawng_01b.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">391</rice:hasProduct>
+        <rice:hasProduct>391</rice:hasProduct>
         <rice:isRiceEngName>JowLisawSanPahTawng</rice:isRiceEngName>
         <rice:isRiceThaiName>เจ้าลีซอสันป่าตอง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1120,7 +1120,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khai%20Mod%20Rin3/1.png&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">436</rice:hasProduct>
+        <rice:hasProduct>436</rice:hasProduct>
         <rice:isRiceEngName>KhaiModRin3</rice:isRiceEngName>
         <rice:isRiceThaiName>ไข่มดริ้น 3</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1140,7 +1140,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Fragrant"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s110/rice_29.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">363</rice:hasProduct>
+        <rice:hasProduct>363</rice:hasProduct>
         <rice:isRiceEngName>KhaoDawkMali105</rice:isRiceEngName>
         <rice:isRiceThaiName>ขาวดอกมะลิ 105</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1159,7 +1159,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Jow_Hawm_Khlong_Luang_1/109-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">650</rice:hasProduct>
+        <rice:hasProduct>650</rice:hasProduct>
         <rice:isRiceEngName>KhaoJowHawmKhlongLuang1</rice:isRiceEngName>
         <rice:isRiceThaiName>ข้าวเจ้าหอมคลองหลวง 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1179,7 +1179,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s113/rice_38.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">579</rice:hasProduct>
+        <rice:hasProduct>579</rice:hasProduct>
         <rice:isRiceEngName>KhaoJowHawmPhitsanulok1</rice:isRiceEngName>
         <rice:isRiceThaiName>ข้าวเจ้าหอมพิษณุโลก 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1200,7 +1200,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Jow_Hawm_Suphan_Buri/111-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">582</rice:hasProduct>
+        <rice:hasProduct>582</rice:hasProduct>
         <rice:isRiceEngName>KhaoJowHawmSuphanBuri</rice:isRiceEngName>
         <rice:isRiceThaiName>ข้าวเจ้าหอมสุพรรณบุรี</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1218,7 +1218,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s136/02.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">582</rice:hasProduct>
+        <rice:hasProduct>582</rice:hasProduct>
         <rice:isRiceEngName>KhaoLuangSanPahTawng</rice:isRiceEngName>
         <rice:isRiceThaiName>ข้าวหลวงสันป่าตอง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1238,7 +1238,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s112/rice_35.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">415</rice:hasProduct>
+        <rice:hasProduct>415</rice:hasProduct>
         <rice:isRiceEngName>KhaoPahkMaw148</rice:isRiceEngName>
         <rice:isRiceThaiName>ขาวปากหม้อ 148</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1256,7 +1256,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Pong_Krai/167_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">243</rice:hasProduct>
+        <rice:hasProduct>243</rice:hasProduct>
         <rice:isRiceEngName>KhaoPongKrai</rice:isRiceEngName>
         <rice:isRiceThaiName>ขาวโป่งไคร้</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1275,7 +1275,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s111/rice_32.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">473</rice:hasProduct>
+        <rice:hasProduct>473</rice:hasProduct>
         <rice:isRiceEngName>KhaoTahHaeng17</rice:isRiceEngName>
         <rice:isRiceThaiName>ขาวตาแห้ง 17</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1296,7 +1296,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Japan"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Yipun_DOA1/199_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">718</rice:hasProduct>
+        <rice:hasProduct>718</rice:hasProduct>
         <rice:isRiceEngName>KhaoYipunDOA1</rice:isRiceEngName>
         <rice:isRiceThaiName>กวก. 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1314,7 +1314,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Japan"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Khao_Yipun_DOA2/201_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">707</rice:hasProduct>
+        <rice:hasProduct>707</rice:hasProduct>
         <rice:isRiceEngName>KhaoYipunDOA2</rice:isRiceEngName>
         <rice:isRiceThaiName>กวก. 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1332,7 +1332,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s135/02.JPG&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">529</rice:hasProduct>
+        <rice:hasProduct>529</rice:hasProduct>
         <rice:isRiceEngName>KhemTawngPhatthalung</rice:isRiceEngName>
         <rice:isRiceThaiName>เข็มทองพัทลุง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1350,7 +1350,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/PSLC84035/1.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500</rice:hasProduct>
+        <rice:hasProduct>500</rice:hasProduct>
         <rice:isRiceEngName>KhowKordiaw35</rice:isRiceEngName>
         <rice:isRiceThaiName>ขาวกอเดียว 35</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1368,7 +1368,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Leb_Meu_Nahng_111/155_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">328</rice:hasProduct>
+        <rice:hasProduct>328</rice:hasProduct>
         <rice:isRiceEngName>LebMeuNahng111</rice:isRiceEngName>
         <rice:isRiceThaiName>เล็บมือนาง 111</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1386,7 +1386,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s127/03.JPG&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">480</rice:hasProduct>
+        <rice:hasProduct>480</rice:hasProduct>
         <rice:isRiceEngName>LebNokPattani</rice:isRiceEngName>
         <rice:isRiceThaiName>เล็บนกปัตตานี</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1404,7 +1404,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s133/02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">414</rice:hasProduct>
+        <rice:hasProduct>414</rice:hasProduct>
         <rice:isRiceEngName>LeuangPratew123</rice:isRiceEngName>
         <rice:isRiceThaiName>เหลืองประทิว 123</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1424,7 +1424,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#HalfSetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s134/02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">548</rice:hasProduct>
+        <rice:hasProduct>548</rice:hasProduct>
         <rice:isRiceEngName>LeuangYai148</rice:isRiceEngName>
         <rice:isRiceThaiName>เหลืองใหญ่ 148</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1462,7 +1462,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s126/002.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">418</rice:hasProduct>
+        <rice:hasProduct>418</rice:hasProduct>
         <rice:isRiceEngName>LookDaengPattani</rice:isRiceEngName>
         <rice:isRiceThaiName>ลูกแดงปัตตานี</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1552,7 +1552,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s129/02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">540</rice:hasProduct>
+        <rice:hasProduct>540</rice:hasProduct>
         <rice:isRiceEngName>MueyNawng62M</rice:isRiceEngName>
         <rice:isRiceThaiName>เหมยนอง 62 เอ็ม</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1570,7 +1570,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Nahng_Cha_lawng/146_1.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">394</rice:hasProduct>
+        <rice:hasProduct>394</rice:hasProduct>
         <rice:isRiceEngName>NahngChaLawng</rice:isRiceEngName>
         <rice:isRiceThaiName>นางฉลอง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1588,7 +1588,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s117/rice_50.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">436</rice:hasProduct>
+        <rice:hasProduct>436</rice:hasProduct>
         <rice:isRiceEngName>NahngMonS4</rice:isRiceEngName>
         <rice:isRiceThaiName>นางมล เอส-4</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1608,7 +1608,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s116/rice_47.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">489</rice:hasProduct>
+        <rice:hasProduct>489</rice:hasProduct>
         <rice:isRiceEngName>NahngPayah132</rice:isRiceEngName>
         <rice:isRiceThaiName>นางพญา 132</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1626,7 +1626,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Nam_Roo/175_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">247</rice:hasProduct>
+        <rice:hasProduct>247</rice:hasProduct>
         <rice:isRiceEngName>NamRoo</rice:isRiceEngName>
         <rice:isRiceThaiName>น้ำรู</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1645,7 +1645,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s118/rice_53.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">499</rice:hasProduct>
+        <rice:hasProduct>499</rice:hasProduct>
         <rice:isRiceEngName>NamSagui19</rice:isRiceEngName>
         <rice:isRiceThaiName>น้ำสะกุย 19</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1677,7 +1677,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s130/02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">526</rice:hasProduct>
+        <rice:hasProduct>526</rice:hasProduct>
         <rice:isRiceEngName>NiawSanPahTawng</rice:isRiceEngName>
         <rice:isRiceThaiName>เหนียวสันป่าตอง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1696,7 +1696,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s131/03.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">660</rice:hasProduct>
+        <rice:hasProduct>660</rice:hasProduct>
         <rice:isRiceEngName>Niaw Ubon 1</rice:isRiceEngName>
         <rice:isRiceThaiName>เหนียวอุบล 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1715,7 +1715,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s132/02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">463</rice:hasProduct>
+        <rice:hasProduct>463</rice:hasProduct>
         <rice:isRiceEngName>NiawUbon2</rice:isRiceEngName>
         <rice:isRiceThaiName>เหนียวอุบล 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1745,7 +1745,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/PTNC96004-49/PTNC96004-49_1.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">285</rice:hasProduct>
+        <rice:hasProduct>285</rice:hasProduct>
         <rice:isRiceEngName>PTNC9600449</rice:isRiceEngName>
         <rice:isRiceThaiName>เหนียวดำช่อไม้ไผ่ 4</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1774,7 +1774,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Pathum_Thani_1/115-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">650</rice:hasProduct>
+        <rice:hasProduct>650</rice:hasProduct>
         <rice:isRiceEngName>PathumThani1</rice:isRiceEngName>
         <rice:isRiceThaiName>ปทุมธานี 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1794,7 +1794,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s120/rice_59.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">571</rice:hasProduct>
+        <rice:hasProduct>571</rice:hasProduct>
         <rice:isRiceEngName>PathumThani60</rice:isRiceEngName>
         <rice:isRiceThaiName>ปทุมธานี 60</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1812,7 +1812,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Patthalung/117-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">710</rice:hasProduct>
+        <rice:hasProduct>710</rice:hasProduct>
         <rice:isRiceEngName>Patthalung</rice:isRiceEngName>
         <rice:isRiceThaiName>พัทลุง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1832,7 +1832,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s119/rice_56.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</rice:hasProduct>
+        <rice:hasProduct>450</rice:hasProduct>
         <rice:isRiceEngName>PeuakNam43</rice:isRiceEngName>
         <rice:isRiceThaiName>เผือกน้ำ 43</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1850,7 +1850,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s122/rice_65.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">457</rice:hasProduct>
+        <rice:hasProduct>457</rice:hasProduct>
         <rice:isRiceEngName>Phatthalung60</rice:isRiceEngName>
         <rice:isRiceThaiName>พัทลุง 60</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1868,7 +1868,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s123/Phitsanulok_3_02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">604</rice:hasProduct>
+        <rice:hasProduct>604</rice:hasProduct>
         <rice:isRiceEngName>Phitsanulok3</rice:isRiceEngName>
         <rice:isRiceThaiName>พิษณุโลก 3</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1886,7 +1886,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s124/Phitsanulok_60-1_02.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">550</rice:hasProduct>
+        <rice:hasProduct>550</rice:hasProduct>
         <rice:isRiceEngName>Phitsanulok601</rice:isRiceEngName>
         <rice:isRiceThaiName>พิษณุโลก 60-1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1904,7 +1904,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Phitsanulok_60-2/121-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">700</rice:hasProduct>
+        <rice:hasProduct>700</rice:hasProduct>
         <rice:isRiceEngName>Phitsanulok602</rice:isRiceEngName>
         <rice:isRiceThaiName>พิษณุโลก 60-2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1922,7 +1922,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s125/002.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">637</rice:hasProduct>
+        <rice:hasProduct>637</rice:hasProduct>
         <rice:isRiceEngName>Phitsanulok80</rice:isRiceEngName>
         <rice:isRiceThaiName>พิษณุโลก 80</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1941,7 +1941,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Phitsanulok2/119-1%20copy.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">807</rice:hasProduct>
+        <rice:hasProduct>807</rice:hasProduct>
         <rice:isRiceEngName>Phitsanulok 2</rice:isRiceEngName>
         <rice:isRiceThaiName>พิษณุโลก 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1962,7 +1962,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Phrae_1/123-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">685</rice:hasProduct>
+        <rice:hasProduct>685</rice:hasProduct>
         <rice:isRiceEngName>Phrae1</rice:isRiceEngName>
         <rice:isRiceThaiName>แพร่ 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -1980,7 +1980,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Pin_Gaew_56/151_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">362</rice:hasProduct>
+        <rice:hasProduct>362</rice:hasProduct>
         <rice:isRiceEngName>PinGaew56</rice:isRiceEngName>
         <rice:isRiceThaiName>ปิ่นแก้ว 56</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2010,7 +2010,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Plai_Ngahm_Prachin_Buri/153_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">380</rice:hasProduct>
+        <rice:hasProduct>380</rice:hasProduct>
         <rice:isRiceEngName>PlaiNgahmPrachinBuri</rice:isRiceEngName>
         <rice:isRiceThaiName>พลายงามปราจีนบุรี</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2029,7 +2029,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Prachin_Buri_1/147_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</rice:hasProduct>
+        <rice:hasProduct>450</rice:hasProduct>
         <rice:isRiceEngName>PrachinBuri1</rice:isRiceEngName>
         <rice:isRiceThaiName>ปราจีนบุรี 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2049,7 +2049,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Prachin_Buri_2/149_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">849</rice:hasProduct>
+        <rice:hasProduct>849</rice:hasProduct>
         <rice:isRiceEngName>PrachinBuri2</rice:isRiceEngName>
         <rice:isRiceThaiName>ปราจีนบุรี 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2069,7 +2069,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s121/Puang_Rai_2.jpg&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">437</rice:hasProduct>
+        <rice:hasProduct>437</rice:hasProduct>
         <rice:isRiceEngName>PuangRai2</rice:isRiceEngName>
         <rice:isRiceThaiName>พวงไร่ 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2090,7 +2090,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/R258/179_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">252</rice:hasProduct>
+        <rice:hasProduct>252</rice:hasProduct>
         <rice:isRiceEngName>R258</rice:isRiceEngName>
         <rice:isRiceThaiName>อาร์ 258</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2109,7 +2109,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD1/087-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">742</rice:hasProduct>
+        <rice:hasProduct>742</rice:hasProduct>
         <rice:isRiceEngName>RD1</rice:isRiceEngName>
         <rice:isRiceThaiName>กข1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2149,7 +2149,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD11/101-1.gif
 &quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">700</rice:hasProduct>
+        <rice:hasProduct>700</rice:hasProduct>
         <rice:isRiceEngName>RD11</rice:isRiceEngName>
         <rice:isRiceThaiName>กข11</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2168,7 +2168,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s14/002.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">522</rice:hasProduct>
+        <rice:hasProduct>522</rice:hasProduct>
         <rice:isRiceEngName>RD12Nongkhai80</rice:isRiceEngName>
         <rice:isRiceThaiName>กข12 (หนองคาย 80)</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2187,7 +2187,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s15/rice_14.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</rice:hasProduct>
+        <rice:hasProduct>450</rice:hasProduct>
         <rice:isRiceEngName>RD13</rice:isRiceEngName>
         <rice:isRiceThaiName>กข13</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2205,7 +2205,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD14/01.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">666</rice:hasProduct>
+        <rice:hasProduct>666</rice:hasProduct>
         <rice:isRiceEngName>RD14</rice:isRiceEngName>
         <rice:isRiceThaiName>กข14</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2224,7 +2224,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/kk15/rice_17.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">560</rice:hasProduct>
+        <rice:hasProduct>560</rice:hasProduct>
         <rice:isRiceEngName>RD15</rice:isRiceEngName>
         <rice:isRiceThaiName>กข15</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2242,7 +2242,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD16/1.png&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">633</rice:hasProduct>
+        <rice:hasProduct>633</rice:hasProduct>
         <rice:isRiceEngName>RD16</rice:isRiceEngName>
         <rice:isRiceThaiName>กข16</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2262,7 +2262,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD17/161_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">645</rice:hasProduct>
+        <rice:hasProduct>645</rice:hasProduct>
         <rice:isRiceEngName>RD17</rice:isRiceEngName>
         <rice:isRiceThaiName>กข17</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2281,7 +2281,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD19/141_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">570</rice:hasProduct>
+        <rice:hasProduct>570</rice:hasProduct>
         <rice:isRiceEngName>RD19</rice:isRiceEngName>
         <rice:isRiceThaiName>กข19</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2299,7 +2299,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD2/089-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">766</rice:hasProduct>
+        <rice:hasProduct>766</rice:hasProduct>
         <rice:isRiceEngName>RD2</rice:isRiceEngName>
         <rice:isRiceThaiName>กข2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2318,7 +2318,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD21/103-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">700</rice:hasProduct>
+        <rice:hasProduct>700</rice:hasProduct>
         <rice:isRiceEngName>RD21</rice:isRiceEngName>
         <rice:isRiceThaiName>กข21</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2338,7 +2338,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD23/105-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">800</rice:hasProduct>
+        <rice:hasProduct>800</rice:hasProduct>
         <rice:isRiceEngName>RD23</rice:isRiceEngName>
         <rice:isRiceThaiName>กข23</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2375,7 +2375,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#HalfSetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s16/rice_20.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">600</rice:hasProduct>
+        <rice:hasProduct>600</rice:hasProduct>
         <rice:isRiceEngName>RD27</rice:isRiceEngName>
         <rice:isRiceThaiName>กข27</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2393,7 +2393,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD29/rd29b.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">876</rice:hasProduct>
+        <rice:hasProduct>876</rice:hasProduct>
         <rice:isRiceEngName>RD29Chainat80</rice:isRiceEngName>
         <rice:isRiceThaiName>กข29 (ชัยนาท 80)</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2430,7 +2430,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD31/01.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">745</rice:hasProduct>
+        <rice:hasProduct>745</rice:hasProduct>
         <rice:isRiceEngName>RD31Pathumthani80</rice:isRiceEngName>
         <rice:isRiceThaiName>กข31 (ปทุมธานี 80)</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2450,7 +2450,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD33/02.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">493</rice:hasProduct>
+        <rice:hasProduct>493</rice:hasProduct>
         <rice:isRiceEngName>RD33HomUbon33</rice:isRiceEngName>
         <rice:isRiceThaiName>กข33 (หอมอุบล 80)</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2468,7 +2468,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s17/003.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">650</rice:hasProduct>
+        <rice:hasProduct>650</rice:hasProduct>
         <rice:isRiceEngName>RD35Rangsit80</rice:isRiceEngName>
         <rice:isRiceThaiName>กข35 (รังสิต 80)</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2486,7 +2486,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD37/01.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">602</rice:hasProduct>
+        <rice:hasProduct>602</rice:hasProduct>
         <rice:isRiceEngName>RD37</rice:isRiceEngName>
         <rice:isRiceThaiName>กข37</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2504,7 +2504,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD39/01.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">577</rice:hasProduct>
+        <rice:hasProduct>577</rice:hasProduct>
         <rice:isRiceEngName>RD39</rice:isRiceEngName>
         <rice:isRiceThaiName>กข39</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2525,7 +2525,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD4/093-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">573</rice:hasProduct>
+        <rice:hasProduct>573</rice:hasProduct>
         <rice:isRiceEngName>RD4</rice:isRiceEngName>
         <rice:isRiceThaiName>กข4</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2543,7 +2543,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD41/2.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">722</rice:hasProduct>
+        <rice:hasProduct>722</rice:hasProduct>
         <rice:isRiceEngName>RD41</rice:isRiceEngName>
         <rice:isRiceThaiName>กข41</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2561,7 +2561,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD43/1.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">561</rice:hasProduct>
+        <rice:hasProduct>561</rice:hasProduct>
         <rice:isRiceEngName>RD43</rice:isRiceEngName>
         <rice:isRiceThaiName>กข43</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2580,7 +2580,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD45/1.png&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">520</rice:hasProduct>
+        <rice:hasProduct>520</rice:hasProduct>
         <rice:isRiceEngName>RD45</rice:isRiceEngName>
         <rice:isRiceThaiName>กข45</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2598,7 +2598,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD47/1.png&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">793</rice:hasProduct>
+        <rice:hasProduct>793</rice:hasProduct>
         <rice:isRiceEngName>RD47</rice:isRiceEngName>
         <rice:isRiceThaiName>กข47</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2616,7 +2616,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s11/rice_05.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">576</rice:hasProduct>
+        <rice:hasProduct>576</rice:hasProduct>
         <rice:isRiceEngName>RD5</rice:isRiceEngName>
         <rice:isRiceThaiName>กข5</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2637,7 +2637,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s12/rice_08.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">666</rice:hasProduct>
+        <rice:hasProduct>666</rice:hasProduct>
         <rice:isRiceEngName>RD6</rice:isRiceEngName>
         <rice:isRiceThaiName>กข6</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2656,7 +2656,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#GobaeShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/RD7/095-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">672</rice:hasProduct>
+        <rice:hasProduct>672</rice:hasProduct>
         <rice:isRiceEngName>RD7</rice:isRiceEngName>
         <rice:isRiceThaiName>กข7</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2675,9 +2675,9 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s13/rice_11.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">585</rice:hasProduct>
+        <rice:hasProduct>585</rice:hasProduct>
         <rice:isRiceEngName>RD8</rice:isRiceEngName>
-        <rice:isRiceThaiName>กข6</rice:isRiceThaiName>
+        <rice:isRiceThaiName>กข8</rice:isRiceThaiName>
     </owl:NamedIndividual>
     
 
@@ -2721,7 +2721,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Red_Hawn_Rice/206_1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">643</rice:hasProduct>
+        <rice:hasProduct>643</rice:hasProduct>
         <rice:isRiceEngName>RedHawnRice</rice:isRiceEngName>
         <rice:isRiceThaiName>ข้าวหอมแดง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2761,7 +2761,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Red_Rose_Rice/207_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">750</rice:hasProduct>
+        <rice:hasProduct>750</rice:hasProduct>
         <rice:isRiceEngName>RedRoseRice</rice:isRiceEngName>
         <rice:isRiceThaiName>ข้าวหอมกุหลาบแดง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2852,7 +2852,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Sakon_Nakhon/125-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">467</rice:hasProduct>
+        <rice:hasProduct>467</rice:hasProduct>
         <rice:isRiceEngName>SakonNakhon</rice:isRiceEngName>
         <rice:isRiceThaiName>สกลนคร</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2871,7 +2871,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Barley"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Bale_Samerng_1/193_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">270</rice:hasProduct>
+        <rice:hasProduct>270</rice:hasProduct>
         <rice:isRiceEngName>Samerng1</rice:isRiceEngName>
         <rice:isRiceThaiName>สะเมิง 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2890,7 +2890,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Barley"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Bale_Samerng_2/195_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</rice:hasProduct>
+        <rice:hasProduct>300</rice:hasProduct>
         <rice:isRiceEngName>Samerng 2</rice:isRiceEngName>
         <rice:isRiceThaiName>สะเมิง 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2910,7 +2910,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/San_pah_tawng_1/127-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">630</rice:hasProduct>
+        <rice:hasProduct>630</rice:hasProduct>
         <rice:isRiceEngName>SanPahTawng1</rice:isRiceEngName>
         <rice:isRiceThaiName>สันป่าตอง 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2928,7 +2928,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Sang_Yhod_Pattalung/Sang_Yhod%20Pattalung2.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">330</rice:hasProduct>
+        <rice:hasProduct>330</rice:hasProduct>
         <rice:isRiceEngName>SangYodPhattalung</rice:isRiceEngName>
         <rice:isRiceThaiName>สังข์หยดพัทลุง</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -2979,7 +2979,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Sticky"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Sew_Mae_Jan/171_2.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">456</rice:hasProduct>
+        <rice:hasProduct>456</rice:hasProduct>
         <rice:isRiceEngName>SewMaeJan</rice:isRiceEngName>
         <rice:isRiceThaiName>ซิวแม่จัน</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -3018,7 +3018,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_1/129-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">806</rice:hasProduct>
+        <rice:hasProduct>806</rice:hasProduct>
         <rice:isRiceEngName>SuphanBuri1</rice:isRiceEngName>
         <rice:isRiceThaiName>สุพรรณบุรี 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -3038,7 +3038,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_2/131-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">700</rice:hasProduct>
+        <rice:hasProduct>700</rice:hasProduct>
         <rice:isRiceEngName>SuphanBuri2</rice:isRiceEngName>
         <rice:isRiceThaiName>สุพรรณบุรี 2</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -3056,7 +3056,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_3/Suphan_Buri_3_02.jpg&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">772</rice:hasProduct>
+        <rice:hasProduct>772</rice:hasProduct>
         <rice:isRiceEngName>SuphanBuri3</rice:isRiceEngName>
         <rice:isRiceThaiName>สุพรรณบุรี 3</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -3077,7 +3077,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_60/134.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">700</rice:hasProduct>
+        <rice:hasProduct>700</rice:hasProduct>
         <rice:isRiceEngName>SuphanBuri60</rice:isRiceEngName>
         <rice:isRiceThaiName>สุพรรณบุรี 60</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -3096,7 +3096,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Suphan_Buri_90/135-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">600</rice:hasProduct>
+        <rice:hasProduct>600</rice:hasProduct>
         <rice:isRiceEngName>SuphanBuri90</rice:isRiceEngName>
         <rice:isRiceThaiName>สุพรรณบุรี 90</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -3115,7 +3115,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SetShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Surin_1/137-1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">718</rice:hasProduct>
+        <rice:hasProduct>718</rice:hasProduct>
         <rice:isRiceEngName>Surin1</rice:isRiceEngName>
         <rice:isRiceThaiName>สุรินทร์ 1</rice:isRiceThaiName>
     </owl:NamedIndividual>
@@ -3133,7 +3133,7 @@ http://www.ricethailand.go.th/Rkb/varieties/images/content/image/s137/02.jpg&quo
         <rice:beStem rdf:resource="http://www.myontology.com/rice#SpreadShape"/>
         <rice:beType rdf:resource="http://www.myontology.com/rice#Paddy"/>
         <rice:hasImage>&lt;img src = &quot;http://www.ricethailand.go.th/Rkb/varieties/images/content/image/Ta_pow_Gaew_161/144_1.gif&quot; style=&quot;width: 200px; height: 200px;&quot;/&gt;</rice:hasImage>
-        <rice:hasProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">350</rice:hasProduct>
+        <rice:hasProduct>350</rice:hasProduct>
         <rice:isRiceEngName>TaPowGaew161</rice:isRiceEngName>
         <rice:isRiceThaiName>ตะเภาแก้ว 161</rice:isRiceThaiName>
     </owl:NamedIndividual>

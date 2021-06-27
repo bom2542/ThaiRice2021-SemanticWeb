@@ -39,7 +39,7 @@ public class mySparql extends TagSupport {
 					queryTemplat = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
 							"      PREFIX ex: <http://www.myontology.com/rice#>\n" +
 							"\n" +
-							"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products ?RiceTypeEN ?RiceTypeTH \n" +
+							"      SELECT ?ImageRice ?RiceNameEN ?RiceNameTH ?Products \n" +
 							"        WHERE { \n" +
 							"          ?ThaiRice ex:isRiceEngName ?RiceNameEN .\n" +
 							"          ?ThaiRice ex:isRiceThaiName ?RiceNameTH .\n" +

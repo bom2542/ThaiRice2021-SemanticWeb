@@ -19,11 +19,14 @@
   <div class="container">
       <div class="row">
 
-          <div class="col-md-12">
+          <div class="col-md-12 mb-2">
             <jsp:include page="jsp/search.jsp"/>
           </div>
           <div class="col-md-12">
-              <div class="table-responsive mt-4">
+                  <p id="keyword"><b style='color: green;'>Advice keyword search : </b> Enter thai rice (english name) for search</p>
+          </div>
+          <div class="col-md-12">
+              <div class="table-responsive mt-2 mb-5">
                 <m:sparqllab qstring="${param.qstring}" fill="${param.fill}"></m:sparqllab>
               </div>
           </div>

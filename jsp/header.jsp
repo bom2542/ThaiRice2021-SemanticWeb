@@ -74,8 +74,10 @@
         display: none;
     }
 
-    td.img {
-        align-content: center;
+    table.tbody.tr.td {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 </style>
